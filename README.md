@@ -94,6 +94,7 @@ Add your user stories here. You want to include first time visitors and returnin
 
 👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
+
 ### Colour Scheme
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
@@ -119,6 +120,19 @@ Use this section to explain what sort of imagery you plan to use through your si
 ### Wireframes
 
 ![3 Page Website](docs/images/cormeenwalkers-pages.bmpr)
+
+The site consistes of 3 pages Home, Gallery & Signup. Each page can be reached from the menu in the header.  The currect page is highlighted.  The home page has the most important information (highest priority) such as meet up times and guidelines as to what to wear & motivational messages describing the benefits of 'walking and talking'.
+
+For consistency of user experience the header and footer is same on each of the 3 pages.
+The header contains the logo & navigation links to get around the website.
+The footer contains contact details & social media links.
+
+The Gallery page reinforces the sense of community and inclusion by displaying images of walkers on a virtual photo wall.
+
+The Signup page contains a form asking for users name and a verified email address, a submit button which will change colour when used, once submitted the user will be advised to check their inbox for the current newsletter.
+
+** RESPONSIVE
+This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.
 
 ![Mockup](docs/images/cormeenwalkers.jpg)
 
