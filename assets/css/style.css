@@ -12,12 +12,14 @@
 
 body {
     font-family: Nunito, san-serif;
+    color: #89586c;
 }
 
 h1 {
     font-family: Bitter, serif;
+    color: #976089ff;
+    text-transform: uppercase;
 }
-
 
 #logo {
     float: left;
@@ -53,6 +55,58 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Hero Section */
+
+#hero-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-text, #hero-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/cormeen-sports-complex-zoomin.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* 5 second animation creates zoom effect on landing page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#hero-text {
+    /* font-size: 130%; */
+    font-family: Bitter, serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 300px;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 10px;
+    /* background-color: rgba(190, 181, 181, 0.7); */
+    background-color: rgba(152, 133, 122, 0.9);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
 
 
