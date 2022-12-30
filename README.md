@@ -1,16 +1,17 @@
 # Cormeen Walkers
+SOB This is a WIP of my README, Anything preceeded by SOB is a placeholder for future edits
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
 This website is a landing page for anyone living around Cormeen that want to know when the Cormeen Walkers meet, they can view the gallery to see photos of the various groups and they can signup for the quarterly newsletter by providing their first name and a valid email address.
 
 I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.(Add a Blurb about the site here, what does it do, why did you build it?)
 
-Add an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
+SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
-Add the GitHub link to the live site here 
+SOBAdd the GitHub link to the live site here 
 
-?? If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+SOB?? If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -112,6 +113,22 @@ What weights have you included?
 I also like to include an image of the fonts chosen as a reference.
 
 [Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+
+https://connectivewebdesign.com/blog/best-google-font-combinations
+
+I chose Bitter & Nunito
+SOB I am mixing a Serif with San SERif
+Sol Matas designed Bitter as a "contemporary" slab serif typeface for text.
+SOB Motivated by her love for the pixel, Sol Matas designed Bitter. A "contemporary" slab serif typeface for text, it is specially designed for comfortably reading on any computer or device. Generally speaking, serif fonts are more traditional, while sans-serif fonts have a more modern feel. But there are exceptions to every rule. “Although the rule of thumb is that sans-serif equals modern and serif equals traditional
+Bitter is specially designed for comfortably reading on any computer or device. 
+Nunito is a well balanced sans serif typeface superfamily,
+
+This combination creates a clean-looking website without extras to distract from the information. 
+When blended, these fonts create a clean look & make it easier for website visitors to pick up key information.
+
+SOB In addition, they work well with designs that incorporate tranquil white space.
+SOB The clean website design works well if you do not want a very detailed look for your pages. Find out more about this option with our team.
+
 
 ### Imagery
 
