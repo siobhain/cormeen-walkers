@@ -60,7 +60,7 @@ h1 {
 /* Hero Section */
 
 #hero-container {
-    height: 600px;
+    height: 450px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -68,47 +68,45 @@ h1 {
 
 #hero-text, #hero-text h2 {
     color: #fff;
+    /* 3 second animation creates a zoom effect on the cover text over the hero image */ 
+    animation-name: herotext-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
 }
 
 #hero-image {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background: url('../images/cormeen-sports-complex-zoomin.jpg') no-repeat center center;
     background-size: cover;
-
-    /* 5 second animation creates zoom effect on landing page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
 }
 
 #hero-text {
-    /* font-size: 130%; */
     font-family: Bitter, serif;
-    text-transform: uppercase;
     text-align: center;
-    letter-spacing: 2px;
-    width: 300px;
-    height: 100px;
-    padding-top: 25px;
+    letter-spacing: 3px;
+    width: 400px;
+    height: 150px;
+    padding-top: 40px;
     padding-left: 10px;
     /* background-color: rgba(190, 181, 181, 0.7); */
-    background-color: rgba(152, 133, 122, 0.9);
-    bottom: 30px;
+    background-color:   hsla(22, 13%, 54%, 0.7);
+    /* background-color: rgba(152, 133, 122, 0.9); */
+    bottom: 75px;
     right: 150px;
     position: absolute;
 }
 
+/* creates the level of zoom for text on hero image */
+@keyframes herotext-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
 
 /* Form Section */
 
