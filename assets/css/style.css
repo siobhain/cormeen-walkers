@@ -1,6 +1,19 @@
-/* style.css for cormeenwalkers by Siobhan O'Brien */
+/* style.css for cormeenwalkers by Siobhan O'Brien Dec 2022 */
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&display=swap');
 
+/* 
+--timberwolf: #e5dfd8ff;
+--cinereous: #98857aff;
+--grullo: #aaa596ff;
+--pale-silver: #c4b8b3ff;
+--mauve-taupe: #976077ff; changed to #976089ff;
+
+$timberwolf: rgba(229, 223, 216, 1);
+$cinereous: rgba(152, 133, 122, 1);
+$grullo: rgba(170, 165, 150, 1);
+$pale-silver: rgba(196, 184, 179, 1);
+$mauve-taupe: rgba(151, 96, 119, 1);
+ */
 
 * {             /* Clear box model defaults*/
     margin: 0;
@@ -31,6 +44,7 @@ h1 {
 
 #menu {
     font-size: 110%;
+    font-weight: bold;
     letter-spacing: 4px;
 }
 
@@ -45,16 +59,16 @@ h1 {
 }
 
 #menu a {
-    text-decoration: none;
+    text-decoration: none;  /* remove default hyperlink underline */
     color: #976089ff;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    background-color: rgba(152, 133, 122, 0.5);
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border: 1mm ridge #976089ff ;
 }
 
 /* Hero Section */
@@ -134,7 +148,7 @@ h1 {
 }
 
 #groups h2 {
-    color: #fafafa;
+    color: #fff;
 }
 
 
