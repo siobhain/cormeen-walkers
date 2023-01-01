@@ -174,14 +174,18 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 - There are 3 groups & 4 meetups per week
 
 - Walkers : Meet twice a week Mon & Fri, 8k circuit
-- Buggys : Meet Wed 9:30 5K route
-- Family : Meet Sat 10am 5k route
+- Buggys : Meet Wed 10am 5K route
+- Family : Meet Sat 10am 4k route
 
 ### Guidelines
 - No dogs
 - High Visibility Jacket
 - Weather appropriate Clothing & footwear
-
+- map to find us
+Cormeen Sports Complex eircode a82 ft62 is in North County Meath close to the Cavan border, It is equidistant to the towns
+				of Kells, Kingscourt & Bailieborough. It is a rural location with views of windmills on rolling farmland
+				hills, walking routea from here will have you crossing old stone bridges and walking past farmland
+				through the seasons, roads so quite that some have the grassy center!
 ### Future Implementations
 
 During the summer there is a hillwalk on Sundays 10am.
