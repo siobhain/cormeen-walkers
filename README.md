@@ -243,7 +243,7 @@ Testing requirements aren't massive for your first project, however if you start
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
-
+SOB Irish Heart Foundation
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
 The Credits section is where you can credit all the people and sources you used throughout your project.
