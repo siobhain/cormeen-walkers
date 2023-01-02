@@ -15,7 +15,8 @@ $pale-silver: rgba(196, 184, 179, 1);
 $mauve-taupe: rgba(151, 96, 119, 1);
  */
 
-* {             /* Clear box model defaults*/
+* {
+    /* Clear box model defaults*/
     margin: 0;
     padding: 0;
     border: none;
@@ -25,8 +26,8 @@ $mauve-taupe: rgba(151, 96, 119, 1);
 
 body {
     font-family: Nunito, san-serif;
-    color: #fff;    /* white looks better than the generated palette colors */
-  }
+    color: #fff;   /* white looks better than the generated palette colors */
+}
 
 h1 {
     font-family: Bitter, serif;
@@ -48,7 +49,8 @@ h1 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -59,7 +61,8 @@ h1 {
 }
 
 #menu a {
-    text-decoration: none;  /* remove default hyperlink underline */
+    text-decoration: none;
+    /* remove default hyperlink underline */
     color: #976089ff;
 }
 
@@ -69,7 +72,7 @@ h1 {
 }
 
 .active {
-    border: 1mm solid #976089ff ;
+    border: 1mm solid #976089ff;
 }
 
 /* Hero Section */
@@ -81,9 +84,10 @@ h1 {
     position: relative;
 }
 
-#hero-text, #hero-text h2 {
+#hero-text,
+#hero-text h2 {
     color: #fff;
-    /* 3 second animation creates a zoom effect on the cover text over the hero image */ 
+    /* 3 second animation creates a zoom effect on the cover text over the hero image */
     animation-name: herotext-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -113,10 +117,11 @@ h1 {
 
 /* creates the level of zoom for text on hero image */
 @keyframes herotext-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.5);
     }
 }
@@ -129,7 +134,7 @@ h1 {
     width: 100%;
     height: 300px;
     border: 3px solid #e5dfd8ff;
- }
+}
 
 #aboutsection div {
     letter-spacing: 2px;
@@ -142,7 +147,8 @@ h1 {
 }
 
 #aboutsection a {
-    text-decoration: none;  /* remove default hyperlink underline */
+    text-decoration: none;
+    /* remove default hyperlink underline */
     /* border: 1mm solid #976089ff ; */
     color: #fff;
     font-weight: bold;
@@ -160,10 +166,11 @@ h1 {
     border: 3px solid #e5dfd8ff;
     box-sizing: border-box;
 }
-    /* overflow: hidden; */
+
+/* overflow: hidden; */
 
 #groups div {
-    background-color:  rgba(151, 96, 119, 0.8);
+    background-color: rgba(151, 96, 119, 0.8);
     letter-spacing: 2px;
     width: 25%;
     height: 300px;
@@ -202,9 +209,28 @@ h1 {
 
 /* Form Section */
 
-.text-input, 
-.signup-button {
-    font-family: inherit;   /*overwrite default Arial so Nunito is rendered */
-    font-weight: bold;
+.form-section {
+    clear: left;
+    /* height: 150px; */
+    width: 100%;
     background-color: #976089ff;
+}
+
+.signup-form {
+    background-color: #98857aff;
+    width: 50%;
+    text-align: center;
+    margin: auto; 
+    padding: 1%;
+}
+
+.text-input,
+.signup-button {
+    font-family: inherit;
+    /*overwrite default Arial so Nunito is rendered */
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #976089ff;
 }
