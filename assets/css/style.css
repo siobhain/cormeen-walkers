@@ -27,6 +27,7 @@ $mauve-taupe: rgba(151, 96, 119, 1);
 body {
     font-family: Nunito, san-serif;
     color: #fff;   /* white looks better than the generated palette colors */
+    /* color: orangered; */
 }
 
 h1 {
@@ -206,6 +207,29 @@ h1 {
     border: 3px solid #fff;
     box-sizing: border-box;
 }
+
+/* Footer */
+
+footer {
+    height 75px;
+    background-color: #976089ff;
+    text-align: center;
+    margin-top: 5%;
+    /* position: fixed; */
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+.social-media i{
+    margin: 1%;
+    color: #fff;
+}
+
 
 /* Form Section */
 
