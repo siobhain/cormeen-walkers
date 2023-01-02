@@ -239,7 +239,7 @@ Place instructions on how to fork your project here.
 Place instructions on how to clone your project here.
 
 ## Testing
-
+SOB bug - family icon does not render
 Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
 
 Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
