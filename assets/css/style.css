@@ -130,7 +130,7 @@ h1 {
 /* About section */
 
 #aboutsection {
-    background-color: #976089ff;
+    background-color: #98857aff;
     /* background-image: url(../images/irish-farmstead-from-hill.jpg); */
     width: 100%;
     height: 300px;
@@ -189,6 +189,22 @@ h1 {
 
 /* Benefit Section */
 
+.flex-container {
+    clear: both;
+    display: flex;
+    align-items: center;
+    background-color: #e5dfd8ff;
+    justify-content: space-around;
+    /* height: 300; */
+  }
+  
+  .flex-container > div {
+    background-color: #98857aff;
+    margin: 10px;
+    padding: 2%;
+    font-size: 30px;
+  }
+  
 #benefitsection {
     background-color: #976089ff;
     width: 100%;
@@ -211,10 +227,10 @@ h1 {
 /* Footer */
 
 footer {
-    height 75px;
+    height: 75px;
     background-color: #976089ff;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 1%;
     /* position: fixed; */
 }
 
