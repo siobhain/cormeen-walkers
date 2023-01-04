@@ -1,8 +1,6 @@
 /* style.css for cormeenwalkers by Siobhan O'Brien Dec 2022 */
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&display=swap');
-/* *{
-    outline: 1px solid #f00 !important;
-} */
 
 /* 
 --timberwolf: #e5dfd8ff;
@@ -17,6 +15,9 @@ $grullo: rgba(170, 165, 150, 1);
 $pale-silver: rgba(196, 184, 179, 1);
 $mauve-taupe: rgba(151, 96, 119, 1);
  */
+* {
+    outline: 1px solid #f00 !important;
+}
 
 * {
     /* Clear box model defaults*/
@@ -79,44 +80,78 @@ h1 {
     border: 1mm solid #976089ff;
 }
 
+/* new hero section */
+.flex-acontainer {
+    clear: both;
+    display: flex;
+    background-image: url(../images/grass-middle-road.jpg);
+    /* height: 300px; */
+  }
+  
+  .flex-acontainer > div {
+    background-color: #976089ff;
+    margin: 10px;
+    padding: 2%
+    /* font-size: 30px; */
+  }
+
+  
+
 /* Hero Section */
 
 #hero-container {
-    height: 450px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-text,
-#hero-text h2 {
-    color: #fff;
-    /* 3 second animation creates a zoom effect on the cover text over the hero image */
-    animation-name: herotext-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-
-}
-
-#hero-image {
-    height: 450px;
-    width: 100%;
-    background: url('../images/cormeen-sports-complex-zoomin.jpg') no-repeat center center;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    background: url('../images/grass-middle-road.jpg') no-repeat center center;
     background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+     height: 300px;
+     position: relative;
+}
+  
+#hero-container ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 8px;
+    /* text-align: center; */
+}
+
+#hero-links {
+       letter-spacing: 3px;
+       /* justify-content: space-around; */
+ 
+       background-color: rgba(152, 133, 122, 0.8);
+}
+
+
+#hero-links a {
+    color: #fff;
+    font-size: 200%;  
+     justify-content: space-around;
+ 
 }
 
 #hero-text {
-    font-family: Bitter, serif;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     letter-spacing: 3px;
-    width: 400px;
-    height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
     background-color: rgba(152, 133, 122, 0.8);
-    bottom: 75px;
-    right: 150px;
+    bottom: 75px; 
+    align-items: center;
     position: absolute;
+    animation-name: herotext-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#hero-text p {
+    text-align: center;
 }
 
 /* creates the level of zoom for text on hero image */
@@ -126,7 +161,7 @@ h1 {
     }
 
     to {
-        transform: scale(1.5);
+        transform: scale(1.3);
     }
 }
 
@@ -198,7 +233,7 @@ h1 {
     align-items: center;
     background-color: #e5dfd8ff;
     justify-content: space-around;
-    /* height: 300; */
+    height: 300;
   }
   
   .flex-container > div {
