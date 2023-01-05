@@ -1,0 +1,21 @@
+Thu Jan 5 01:31:06 2023 +0000 Gallery: new images & palette, ALSO  Tidy up hero & bene
+Wed Jan 4 03:45:20 2023 +0000 hero: change image & recode with flex, include inpage links on hero
+Tue Jan 3 13:55:05 2023 +0000 form: add confirmation page confirm.html
+Tue Jan 3 01:04:17 2023 +0000 benef: style this section with flex
+Mon Jan 2 23:33:21 2023 +0000 footer: add social media icons to footer
+Mon Jan 2 21:24:41 2023 +0000 gallery: change some photos and add styles
+Mon Jan 2 19:45:02 2023 +0000 form: style form and make responsive in signup.html
+Mon Jan 2 00:25:26 2023 +0000 about: move guideline/benefit to another section
+Sun Jan 1 19:32:14 2023 +0000 about: add blocks for  map guidelines &  benefits
+Sun Jan 1 18:01:50 2023 +0000 groups: add content & increase height
+Sun Jan 1 15:39:44 2023 +0000 menu: add border to active, add bg-color to hover
+Sat Dec 31 22:54:23 2022 +0000 groups: add 4 divs to groups section, change palette
+Sat Dec 31 20:09:41 2022 +0000 hero: Add animation to the cover text
+Fri Dec 30 23:14:39 2022 +0000 Add hero image & text, docs: add palette
+Fri Dec 30 21:16:16 2022 +0000 Add my fonts, Header : put logo & menu on same line
+Fri Dec 30 15:44:56 2022 +0000 add photos to gallery page
+Tue Dec 27 20:42:20 2022 +0000 add form to signup page
+Tue Dec 27 17:27:38 2022 +0000 cradd navigation block to the 3 pages
+Tue Dec 27 17:05:40 2022 +0000 create file structure, add meta, link css, update README
+Tue Dec 27 14:27:30 2022 +0000 docs: update README include wireframes
+Tue Dec 27 11:31:30 2022 +0000 Initial commitgit log --pretty=format:%ad %s

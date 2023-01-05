@@ -1,44 +1,24 @@
-style.css for cormeenwalkers by Siobhan O'Brien Dec 2022
+/* style.css for cormeenwalkers by Siobhan O'Brien Dec 2022 */
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&display=swap');
 
 /* 
---timberwolf: #e5dfd8ff;
---cinereous: #98857aff;
---grullo: #aaa596ff;
---pale-silver: #c4b8b3ff;
---mauve-taupe: #976077ff; changed to #976089ff;
-
-$timberwolf: rgba(229, 223, 216, 1);
-$cinereous: rgba(152, 133, 122, 1);
-$grullo: rgba(170, 165, 150, 1);
-$pale-silver: rgba(196, 184, 179, 1);
-$mauve-taupe: rgba(151, 96, 119, 1);
- */
-/* --shadow: #978960ff;
+--shadow: #978960ff;
 --olive: #708212ff;
 --mauve-taupe: #976077ff;
 
 $shadow: rgba(151, 137, 96, 1);
 $olive: rgba(112, 130, 18, 1);
 $mauve-taupe: rgba(151, 96, 119, 1);
+*/
 
-$gradient-top: linear-gradient(0deg, #978960ff, #708212ff, #976077ff);
-$gradient-right: linear-gradient(90deg, #978960ff, #708212ff, #976077ff);
-$gradient-bottom: linear-gradient(180deg, #978960ff, #708212ff, #976077ff);
-$gradient-left: linear-gradient(270deg, #978960ff, #708212ff, #976077ff);
-$gradient-top-right: linear-gradient(45deg, #978960ff, #708212ff, #976077ff);
-$gradient-bottom-right: linear-gradient(135deg, #978960ff, #708212ff, #976077ff);
-$gradient-top-left: linear-gradient(225deg, #978960ff, #708212ff, #976077ff);
-$gradient-bottom-left: linear-gradient(315deg, #978960ff, #708212ff, #976077ff);
-$gradient-radial: radial-gradient(#978960ff, #708212ff, #976077ff); */
-/* 
 * {
     outline: 1px solid #f00 !important;
-} */
+}
+
+    /* Clear box model defaults*/
 
 * {
-    /* Clear box model defaults*/
     margin: 0;
     padding: 0;
     border: none;
@@ -84,7 +64,8 @@ h1 {
     margin-right: 30px;
 }
 
-#menu a {
+#menu a,
+{
     text-decoration: none;
     /* remove default hyperlink underline */
     color: #708212ff;
@@ -92,28 +73,29 @@ h1 {
 
 #menu a:hover,
 #aboutsection a:hover {
-    background-color: rgba(196, 184, 179, 1);     
+    background-color:  rgba(151, 96, 119, 0.5);   /*mauve*/  
 }
 
 .active {
-    border: 1mm solid #976089ff;
+    border-radius: 2px;
+    border: 1mm solid #976077ff;
 }
 
-/* new hero section */
+/* 
 .flex-acontainer {
     clear: both;
     display: flex;
     background-image: url(../images/grass-middle-road.jpg);
-    /* height: 300px; */
+    height: 300px;
   }
   
   .flex-acontainer > div {
-    background-color: #976089ff;
+    background-color: red;
     margin: 10px;
     padding: 2%
-    /* font-size: 30px; */
+    font-size: 30px;
   }
-
+ */
   
 
 /* Hero Section */
@@ -140,7 +122,7 @@ h1 {
 
 #hero-links {
        letter-spacing: 3px;
-       background-color: rgba(151, 137, 96, 0.8);
+       background-color: rgba(151, 137, 96, 0.8); /*shadow*/
 }
 
 
@@ -154,7 +136,8 @@ h1 {
     flex-direction: row;
     justify-content: center;
     letter-spacing: 3px;
-    background-color: rgba(152, 133, 122, 0.8);
+    /* background-color: rgba(152, 133, 122, 0.8); */
+    background-color: rgba(151, 137, 96, 0.8); /*shadow*/
     bottom: 75px; 
     align-items: center;
     position: absolute;
@@ -181,11 +164,11 @@ h1 {
 /* About section */
 
 #aboutsection {
-    background-color: #98857aff;
+    background-color: rgba(151, 137, 96, 0.8); /*shadow*/
     /* background-image: url(../images/irish-farmstead-from-hill.jpg); */
     width: 100%;
     height: 300px;
-    border: 3px solid #e5dfd8ff;
+    border: 4px solid #708212ff;
 }
 
 #aboutsection div {
@@ -215,14 +198,14 @@ h1 {
     background-position: center; */
     width: 100%;
     height: 300px;
-    border: 3px solid #e5dfd8ff;
+    border: 4px solid #708212ff; /* can't see bottom of this border*/
     box-sizing: border-box;
 }
 
 /* overflow: hidden; */
 
 #groups div {
-    background-color: rgba(151, 96, 119, 0.8);
+    background-color: rgba(151, 96, 119, 1);    /*full mauve*/
     letter-spacing: 2px;
     width: 25%;
     height: 300px;
@@ -230,7 +213,7 @@ h1 {
     padding: 30px 0 0 10px;
     text-align: center;
     /* text-size-adjust: auto; experimental ...for smart phones/tablets that use text inflation algorithm */
-    border: 3px solid #fff;
+    border: 3px solid #708212ff;
     box-sizing: border-box;
 }
 
@@ -251,35 +234,35 @@ h1 {
   }
   
   .flex-container > div {
-    background-color: #98857aff;
+    background-color: #978960ff; /*shadow*/
     margin: 10px;
     padding: 2%;
     /* font-size: 30px; */
   }
 
   .flex-container ul {
-    background-color: #976089ff;
+    background-color: #976077ff; /* full mauve*/
     border-radius: 2%;
     bottom-margin: 10px;
     list-style-type: none;
   }
 
 #benefitsection {
-    background-color: #976089ff;
+    background-color: #976077ff; /* full mauve*/
     width: 100%;
     height: 300px;
-    border: 3px solid #e5dfd8ff;
+    border: 3px solid #708212ff;
     box-sizing: border-box;
 }
 
 #benefitsection div {
-    letter-spacing: 2px;
+1    letter-spacing: 2px;
     width: 50%;
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: left;
-    border: 3px solid #fff;
+    border: 3px solid #708212ff;
     box-sizing: border-box;
 }
 
@@ -287,9 +270,9 @@ h1 {
 
 footer {
     height: 75px;
-    background-color: #976089ff;
+    background-color: #976077ff; /* full mauve*/
     text-align: center;
-    margin-top: 1%;
+    margin-top: 0;
     /* position: fixed; */
 }
 
@@ -312,11 +295,11 @@ footer {
     clear: both;
     /* height: 150px; */
     width: 100%;
-    background-color: #708212ff;
+    background-color: #708212ff;    / *Olive */
 }
 
 .signup-form {
-    background-color: #98857aff;
+    background-color: #978960ff; /*shadow*/
     width: 50%;
     text-align: center;
     margin: auto; 
@@ -332,7 +315,7 @@ footer {
 }
 
 ::placeholder {
-    color: #708212ff;
+    color: #708212ff;   /* olive*/
    
 }
 
@@ -340,6 +323,8 @@ footer {
     background: url('../images/windmills-from-lough-an-lea.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
+    height: cover;
+?    height: fit-content;
     /* height: 78em; */
     display: flex;
     flex-direction: column;
@@ -351,16 +336,21 @@ footer {
     /* display: flex; */
     /* height: 63px;
     width: 268px; */
-    background-color: #98857aff;
+    background-color: #978960ff;    /* shadow */
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     /* margin-bottom: 600px; */
     /* font-size: 18px; */
 }
 
+#thanks > a
+{
+    text-decoration: none;
+}
 
 /* Gallery Section */
+/*page too short, change so it shows full screen lough an lae*/
 
 #photos {
     clear: both;
