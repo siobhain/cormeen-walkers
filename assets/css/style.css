@@ -15,15 +15,34 @@ $grullo: rgba(170, 165, 150, 1);
 $pale-silver: rgba(196, 184, 179, 1);
 $mauve-taupe: rgba(151, 96, 119, 1);
  */
+/* --shadow: #978960ff;
+--olive: #708212ff;
+--mauve-taupe: #976077ff;
+
+$shadow: rgba(151, 137, 96, 1);
+$olive: rgba(112, 130, 18, 1);
+$mauve-taupe: rgba(151, 96, 119, 1);
+
+$gradient-top: linear-gradient(0deg, #978960ff, #708212ff, #976077ff);
+$gradient-right: linear-gradient(90deg, #978960ff, #708212ff, #976077ff);
+$gradient-bottom: linear-gradient(180deg, #978960ff, #708212ff, #976077ff);
+$gradient-left: linear-gradient(270deg, #978960ff, #708212ff, #976077ff);
+$gradient-top-right: linear-gradient(45deg, #978960ff, #708212ff, #976077ff);
+$gradient-bottom-right: linear-gradient(135deg, #978960ff, #708212ff, #976077ff);
+$gradient-top-left: linear-gradient(225deg, #978960ff, #708212ff, #976077ff);
+$gradient-bottom-left: linear-gradient(315deg, #978960ff, #708212ff, #976077ff);
+$gradient-radial: radial-gradient(#978960ff, #708212ff, #976077ff); */
+/* 
 * {
     outline: 1px solid #f00 !important;
-}
+} */
 
 * {
     /* Clear box model defaults*/
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 /* fonts in use Bitter & Nunito */
@@ -36,7 +55,7 @@ body {
 
 h1 {
     font-family: Bitter, serif;
-    color: #976089ff;
+    color: #708212ff;
     text-transform: uppercase;
 }
 
@@ -68,12 +87,12 @@ h1 {
 #menu a {
     text-decoration: none;
     /* remove default hyperlink underline */
-    color: #976089ff;
+    color: #708212ff;
 }
 
 #menu a:hover,
 #aboutsection a:hover {
-    background-color: rgba(152, 133, 122, 0.5);
+    background-color: rgba(196, 184, 179, 1);     
 }
 
 .active {
@@ -104,36 +123,30 @@ h1 {
     display: flex;
     flex-direction: column;
     font-size: 12px;
-    background: url('../images/grass-middle-road.jpg') no-repeat center center;
+    background: /*linear-gradient*/url('../images/grass-middle-road.jpg') no-repeat center center;
     background-size: cover;
     align-items: center;
-    justify-content: space-between;
      height: 300px;
      position: relative;
 }
   
 #hero-container ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     list-style-type: none;
     padding: 0%;
     margin-top: 8px;
-    /* text-align: center; */
 }
 
 #hero-links {
        letter-spacing: 3px;
-       /* justify-content: space-around; */
- 
-       background-color: rgba(152, 133, 122, 0.8);
+       background-color: rgba(151, 137, 96, 0.8);
 }
 
 
 #hero-links a {
     color: #fff;
     font-size: 200%;  
-     justify-content: space-around;
- 
 }
 
 #hero-text {
@@ -230,8 +243,9 @@ h1 {
 .flex-container {
     clear: both;
     display: flex;
-    align-items: center;
-    background-color: #e5dfd8ff;
+    /* align-items: center; */
+    background: url(../images/cormeen-sports-complex-zoomin.jpg) no-repeat center center;
+    background-size: cover;
     justify-content: space-around;
     height: 300;
   }
@@ -240,9 +254,16 @@ h1 {
     background-color: #98857aff;
     margin: 10px;
     padding: 2%;
-    font-size: 30px;
+    /* font-size: 30px; */
   }
-  
+
+  .flex-container ul {
+    background-color: #976089ff;
+    border-radius: 2%;
+    bottom-margin: 10px;
+    list-style-type: none;
+  }
+
 #benefitsection {
     background-color: #976089ff;
     width: 100%;
@@ -311,7 +332,8 @@ footer {
 }
 
 ::placeholder {
-    color: #976089ff;
+    color: #708212ff;
+   
 }
 
 #confirm {
@@ -342,13 +364,15 @@ footer {
 
 #photos {
     clear: both;
-    background-color: #98857aff;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 2px;
-    margin-top: 3px;
+    color: #708212ff;
+    /* line-height: 0; */
+    column-count: 3;
+    /* column-gap: 0px; */
+    margin: 0px;
 }
 
 #photos img{
     width: 100%;
+    border:#708212ff 3px solid;
+    bottom-margin 3px;
 }
