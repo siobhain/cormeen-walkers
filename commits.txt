@@ -19,3 +19,5 @@ Tue Dec 27 17:27:38 2022 +0000 cradd navigation block to the 3 pages
 Tue Dec 27 17:05:40 2022 +0000 create file structure, add meta, link css, update README
 Tue Dec 27 14:27:30 2022 +0000 docs: update README include wireframes
 Tue Dec 27 11:31:30 2022 +0000 Initial commitgit log --pretty=format:%ad %s
+python3 -m http.server
+git log --pretty=format:"%ad %s" |head -n 3

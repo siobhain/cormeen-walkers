@@ -25,6 +25,7 @@ $mauve-taupe: rgba(151, 96, 119, 1);
     box-sizing: border-box;
 }
 
+
 /* fonts in use Bitter & Nunito */
 
 body {
@@ -65,9 +66,9 @@ h1 {
     margin-right: 30px;
 }
 
-#menu a {
-    text-decoration: none;
-    /* remove default hyperlink underline */
+#menu a,
+#thanks a {
+    text-decoration: none;   /* remove default hyperlink underline */
     color: #708212ff;
 }
 
@@ -256,24 +257,28 @@ h1 {
 .flex-container {
     clear: both;
     display: flex;
-    /* background: url(../images/cormeen-sports-complex-zoomin.jpg) no-repeat center center;
-    background-size: cover; */
-    background-color: #976077ff;
+    background-color: rgba(151, 96, 119, 0.7);
     justify-content: space-around;
-    height: 300;
+    text-align: center;
 }
 
-.flex-container>div {
-    background-color: #978960ff;   /*shadow*/
+.flex-container > div {
+    background-color: rgba(151, 137, 96, 1);   /*shadow*/
     margin: 10px;
-    padding: 2%;
-    /* font-size: 30px; */
+    font-size: 20px;
+    padding: 10px 10px;
 }
 
 .flex-container ul {
-    background-color: #976077ff; /* full mauve*/
-    border-radius: 2%;
+    background-color: rgba(151, 96, 119, 1);/* full mauve*/
+    margin: 10px;
+}
+
+.flex-container li {
+    background-color: rgba(151, 96, 119, 1); /* full mauve*/
     list-style-type: none;
+    padding: 2px 6px;
+    text-align: left;
 }
 
 #benefitsection {
@@ -286,7 +291,7 @@ h1 {
 }
 
 #benefitsection div {
-    1 letter-spacing: 2px;
+    letter-spacing: 2px;
     width: 50%;
     height: 300px;
     float: left;
@@ -399,7 +404,7 @@ footer {
 #photos img {
     width: 100%;
     border: #708212ff 3px solid;
-    bottom-margin 3px;
+    margin: 3px;
 }
 
 /* Media queries */
@@ -424,7 +429,7 @@ footer {
     footer {
         padding: 0 20px;
     }
-
+}
     /* For smaller mobile < 375px */
 
     @media screen and (max-width: 375px) {
@@ -486,3 +491,4 @@ footer {
             column-count: 2;
         }
     }
+
