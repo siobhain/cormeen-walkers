@@ -68,7 +68,8 @@ h1 {
 
 #menu a,
 #thanks a {
-    text-decoration: none;   /* remove default hyperlink underline */
+    text-decoration: none;
+    /* remove default hyperlink underline */
     color: #708212ff;
 }
 
@@ -144,8 +145,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     letter-spacing: 3px;
-    background-color: rgba(151, 137, 96, 0.8);
-    /*shadow*/
+    background-color: rgba(151, 137, 96, 0.8);    /*shadow*/
     bottom: 75px;
     align-items: center;
     position: absolute;
@@ -160,24 +160,33 @@ h1 {
 
 /* zoom on hero image */
 
-@keyframes hero-zoom {
+@keyframes hero-zoomback
+{
     from {
         transform: scale(1);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(0.95);
     }
 }
 
-/* creates the level of zoom for text on hero image */
+/* creates the level of zoom for tag line text on hero image */
 @keyframes herotext-zoom {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.8);
+    }
+}
+
+@keyframes herotext-smallzoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
     }
 }
 
@@ -254,7 +263,7 @@ h1 {
 
 /* Benefit Section */
 
-.flex-container {
+.benefit-section {
     clear: both;
     display: flex;
     background-color: rgba(151, 96, 119, 0.7);
@@ -262,43 +271,26 @@ h1 {
     text-align: center;
 }
 
-.flex-container > div {
-    background-color: rgba(151, 137, 96, 1);   /*shadow*/
+.benefit-section>div {
+    background-color: rgba(151, 137, 96, 1);
+    /*shadow*/
     margin: 10px;
     font-size: 20px;
     padding: 10px 10px;
 }
 
-.flex-container ul {
-    background-color: rgba(151, 96, 119, 1);/* full mauve*/
+.benefit-section ul {
+    background-color: rgba(151, 96, 119, 1);
+    /* full mauve*/
     margin: 10px;
 }
 
-.flex-container li {
-    background-color: rgba(151, 96, 119, 1); /* full mauve*/
+.benefit-section li {
+    background-color: rgba(151, 96, 119, 1);
+    /* full mauve*/
     list-style-type: none;
     padding: 2px 6px;
     text-align: left;
-}
-
-#benefitsection {
-    background-color: #976077ff;
-    /* full mauve*/
-    width: 100%;
-    height: 300px;
-    border: 3px solid #708212ff;
-    box-sizing: border-box;
-}
-
-#benefitsection div {
-    letter-spacing: 2px;
-    width: 50%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: left;
-    border: 3px solid #708212ff;
-    box-sizing: border-box;
 }
 
 /* Footer */
@@ -409,11 +401,10 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down ie TABLETS*/
-
-
+/* For larger to medium screens size like tablet < 1040px */
 @media screen and (max-width: 1040px) {
 
+    
     #aboutsection div {
         width: 100%;
         background-color: rgba(151, 96, 119, 0.8);
@@ -430,65 +421,82 @@ footer {
         padding: 0 20px;
     }
 }
-    /* For smaller mobile < 375px */
 
-    @media screen and (max-width: 375px) {
+/* for mobile screen size < 570px */
+@media screen and (max-width: 570px) {
 
-        #logo {
-            margin-left: 10px;
-        }
-
-        #menu {
-            clear: left;
-            float: left;
-            margin-left: 10px;
-            margin-bottom: 10px;
-            line-height: 25px;
-        }
-
-        #menu a {
-            font-size: 80%;
-            letter-spacing: 0;
-            margin: 0 8px;
-        }
-
-        #hero-links {
-            font-size: 80%;
-            letter-spacing: 0;
-            margin: 0 8px;
-            font-weight: bold;
-        }
-
-        #hero-text,
-        #hero-text p {
-            visibility: hidden;
-        }
-
-        /*About section*/
-
-        #aboutsection div {
-            width: 100%;
-            float: left;
-        }
-
-
-        /* Groups*/
-
-        #groups div {
-            width: 100%;
-            border: 5px solid #708212ff;
-
-        }
-
-        /* footer*/
-        footer {
-            height: auto;
-        }
-
-        /* Gallery */
-
-        #photos {
-            column-count: 2;
-        }
+    #hero-text,
+    #hero-text p {
+        width: 70%;     /* so hero text (tag line) will fit in screen */
     }
 
+    .benefit-section {
+        flex-direction: column;   /* benefit section breaks at 570px, so want to stack < 570 */
+
+    }
+}
+
+/* For smaller mobile < 375px */
+@media screen and (max-width: 375px) {
+
+    #logo {
+        margin-left: 10px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+
+    #menu a {
+        font-size: 80%;
+        letter-spacing: 0;
+        margin: 0 8px;
+    }
+
+    #hero-container {
+        height: 80vh;
+    }
+    
+    #hero-links {
+        font-size: 80%;
+        letter-spacing: 0;
+        margin: 0 8px;
+        font-weight: bold;
+    }
+
+    #her-text {
+        animation-name: herotext-smallzoom;
+    }
+
+
+    /*About section*/
+
+    #aboutsection div {
+        width: 100%;
+        float: left;
+    }
+
+
+    /* Groups*/
+
+    #groups div {
+        width: 100%;
+        border: 5px solid #708212ff;
+
+    }
+
+    /* footer*/
+    footer {
+        height: auto;
+    }
+
+    /* Gallery */
+
+    #photos {
+        column-count: 2;
+    }
+}
