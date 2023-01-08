@@ -235,7 +235,7 @@ a:hover {
 
 #aboutsection img,
 #aboutsection iframe {
-    border: 4px solid black;
+    /* border: 4px solid #000; */
     width: 50%;
     height: 100%;
 }
@@ -257,7 +257,7 @@ a:hover {
 /* overflow: hidden; */
 
 #groups div {
-    background-color: rgba(151, 137, 96, 0.8);
+    background-color: rgba(151, 137, 96, 1);
     /* background-color: rgba(151, 96, 119, 1);   full mauve */
     letter-spacing: 2px;
     width: 25%;
@@ -279,9 +279,20 @@ a:hover {
 .benefit-section {
     clear: both;
     display: flex;
-    background-color: rgba(151, 96, 119, 0.7);
+    /* background-color: rgba(151, 96, 119, 0.7); */
+    background-color: #978960ff;
     justify-content: space-around;
     text-align: center;
+}
+
+.benefit-image {
+    width: 300px;
+    height: 300px;
+    background-color: #978960ff;
+    margin: 10px;
+    padding: 30px;
+    border: 3px solid #fff;
+    border-radius: 25%;
 }
 
 .benefit-text {
@@ -289,50 +300,35 @@ a:hover {
     border-radius: 15%;
     margin: 10px;
     font-size: 20px;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 3px;
+    border: 3px solid #fff;
     padding: 30px;
 }
 
 .benefit-section ul {
-    background-color: rgba(151, 96, 119, 1);
+    /* background-color: rgba(151, 96, 119, 1); */
     margin: 10px;
+    border-radius: 15%;
 }
 
 .benefit-section li {
     list-style-type: none;
     padding: 6px 12px;
     text-align: left;
-    border-radius: 15%;
-}
-
-
-
-.benefit-circle {
-    width: 300px;
-    height: 300px;
-    background-color: #978960ff;
-    margin-top: 10px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 3px;
-    border-radius: 50%;
 }
 
 #leaves-bg {
     background: url('../images/legs-in-leaves.jpg') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 
 #carpark-bg {
-    background: url('../images/cormeen-carpark-walkers.jpg') no-repeat center center;
+    background: url('../images/cormeen-sports-complex-walk.jpg') no-repeat center center;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 25%; 
 }
+
 
 /* Footer */
 
@@ -401,20 +397,20 @@ footer {
     background: url('../images/windmills-from-lough-an-lea.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 82vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #confirm h2 {
+    margin: 10px;
     background-color: #708212ff;
 }
 
 #thanks {
     /* display: flex; */
     background-color: rgba(151, 137, 96, 0.8);
-
     text-align: center;
 }
 
@@ -489,6 +485,7 @@ footer {
         width: auto;
         font-size: 70%;
     }
+
     .benefit-section {
         flex-direction: column;
         align-content: center;
@@ -511,7 +508,7 @@ footer {
         /* so hero text (tag line) will fit in screen */
     }
 
-
+}
 
     /* For smaller mobile < 375px */
     @media screen and (max-width: 375px) {
@@ -550,15 +547,12 @@ footer {
             animation-name: herotext-smallzoom;
         }
 
-
         /*About section*/
 
         #aboutsection div {
             width: 100%;
             float: left;
         }
-
-
 
         /* Groups*/
 
@@ -579,4 +573,4 @@ footer {
         #photos {
             column-count: 2;
         }
-    }}
+    }
