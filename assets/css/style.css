@@ -78,7 +78,6 @@ a:hover {
     background-color: rgba(151, 96, 119, 0.5);
     /* border-radius: 2px; */
     border: 2px solid #708212ff;
-    font-color: #708212ff;
 }
 
 /* #menu a:hover */
@@ -285,38 +284,41 @@ a:hover {
     text-align: center;
 }
 
-.benefit-section>div {
+.benefit-text {
     background-color: rgba(151, 137, 96, 1);
-    /*shadow*/
+    border-radius: 15%;
     margin: 10px;
     font-size: 20px;
-    padding: 10px 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 3px;
+    padding: 30px;
 }
 
 .benefit-section ul {
     background-color: rgba(151, 96, 119, 1);
-    /* full mauve*/
     margin: 10px;
 }
 
 .benefit-section li {
-    background-color: rgba(151, 96, 119, 1);
-    /* full mauve*/
     list-style-type: none;
-    padding: 2px 6px;
+    padding: 6px 12px;
     text-align: left;
+    border-radius: 15%;
 }
 
 
-#benefit-circle {
+
+.benefit-circle {
     width: 300px;
     height: 300px;
+    background-color: #978960ff;
+    margin-top: 10px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: #fff;
     border-width: 3px;
     border-radius: 50%;
-    margin: 0 auto;
 }
 
 #leaves-bg {
@@ -456,7 +458,7 @@ footer {
 
     #aboutsection img,
     #aboutsection iframe {
-        width: 100%;  
+        width: 100%;
         height: auto;
     }
 
@@ -466,10 +468,39 @@ footer {
         border: 5px solid #708212ff;
     }
 
+    .benefit-section {
+        flex-wrap: wrap;
+    }
+
+    .benefit-text {
+        width: 50%;
+        align-self: center;
+    }
+
     footer {
         padding: 0 20px;
     }
 }
+
+/* for mobile screen size < 610px */
+@media screen and (max-width: 610px) {
+
+    .benefit-text {
+        width: auto;
+        font-size: 70%;
+    }
+    .benefit-section {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .benefit-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
 
 /* for mobile screen size < 570px */
 @media screen and (max-width: 570px) {
@@ -480,74 +511,72 @@ footer {
         /* so hero text (tag line) will fit in screen */
     }
 
-    .benefit-section {
-        flex-direction: column;
-        /* benefit section breaks at 570px, so want to stack < 570 */
-
-    }
-}
-
-/* For smaller mobile < 375px */
-@media screen and (max-width: 375px) {
-
-    #logo {
-        margin-left: 10px;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        line-height: 25px;
-    }
-
-    #menu a {
-        font-size: 80%;
-        letter-spacing: 0;
-        margin: 0 8px;
-        padding: 1px;
-    }
-
-    #hero-container {
-        height: 80vh;
-    }
-
-    #hero-links {
-        font-size: 80%;
-        letter-spacing: 0;
-        margin: 0 8px;
-        font-weight: bold;
-    }
-
-    #hero-text {
-        animation-name: herotext-smallzoom;
-    }
 
 
-    /*About section*/
+    /* For smaller mobile < 375px */
+    @media screen and (max-width: 375px) {
 
-    #aboutsection div {
-        width: 100%;
-        float: left;
-    }
+        #logo {
+            margin-left: 10px;
+        }
+
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            line-height: 25px;
+        }
+
+        #menu a {
+            font-size: 80%;
+            letter-spacing: 0;
+            margin: 0 8px;
+            padding: 1px;
+        }
+
+        #hero-container {
+            height: 80vh;
+        }
+
+        #hero-links {
+            font-size: 80%;
+            letter-spacing: 0;
+            margin: 0 8px;
+            font-weight: bold;
+        }
+
+        #hero-text {
+            animation-name: herotext-smallzoom;
+        }
 
 
-    /* Groups*/
+        /*About section*/
 
-    #groups div {
-        width: 100%;
-        border: 5px solid #708212ff;
-    }
+        #aboutsection div {
+            width: 100%;
+            float: left;
+        }
 
-    /* footer*/
-    footer {
-        height: auto;
-    }
 
-    /* Gallery */
 
-    #photos {
-        column-count: 2;
-    }
-}
+        /* Groups*/
+
+        #groups div {
+            width: 100%;
+            border: 5px solid #708212ff;
+        }
+
+
+
+        /* footer*/
+        footer {
+            height: auto;
+        }
+
+        /* Gallery */
+
+        #photos {
+            column-count: 2;
+        }
+    }}
