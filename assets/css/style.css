@@ -73,18 +73,21 @@ h1 {
     padding: 2px;
 }
 
-a:hover {   /*aboutsection */
-    background-color: rgba(151, 96, 119, 0.2);
-    border-radius: 2px;
-    border: 1mm solid #708212ff;
+a:hover {
+    /*aboutsection */
+    background-color: rgba(151, 96, 119, 0.5);
+    /* border-radius: 2px; */
+    border: 2px solid #708212ff;
+    font-color: #708212ff;
 }
 
-#menu a:hover
-/*#aboutsection a:hover,*/ {
+/* #menu a:hover */
+/*#aboutsection a:hover,*/
+/* {
     background-color: rgba(151, 96, 119, 0.5);
     border-radius: 2px;
     border: 1mm solid #708212ff;
-}
+} */
 
 .active {
     border-radius: 2px;
@@ -136,10 +139,12 @@ a:hover {   /*aboutsection */
 }
 
 #hero-links a {
-    background-color: rgba(151, 137, 96, 0.8);
+    /* background-color:  rgba(151, 96, 119, 0.8); */
+    background-color: rgba(151, 137, 96, 1);
     letter-spacing: 3px;
     color: #fff;
     font-size: 120%;
+    font-weight: bold;
     margin: 0 5px;
 }
 
@@ -149,7 +154,9 @@ a:hover {   /*aboutsection */
     flex-direction: row;
     justify-content: center;
     letter-spacing: 3px;
-    background-color: rgba(151, 137, 96, 0.8);    /*shadow*/
+    background-color: rgba(151, 137, 96, 1);
+    /*shadow*/
+    /* background-color: rgba(151, 137, 96, 0.8); */
     bottom: 75px;
     align-items: center;
     position: absolute;
@@ -164,8 +171,7 @@ a:hover {   /*aboutsection */
 
 /* zoom on hero image */
 
-@keyframes hero-zoomback
-{
+@keyframes hero-zoomback {
     from {
         transform: scale(1);
     }
@@ -180,6 +186,7 @@ a:hover {   /*aboutsection */
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.8);
     }
@@ -189,6 +196,7 @@ a:hover {   /*aboutsection */
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.2);
     }
@@ -200,7 +208,8 @@ a:hover {   /*aboutsection */
     background-color: rgba(151, 96, 119, 0.8);
     width: 100%;
     height: 300px;
-    border: 4px solid #000; /*#708212ff;*/
+    border: 4px solid #000;
+    /*#708212ff;*/
 }
 
 #aboutsection div {
@@ -296,6 +305,31 @@ a:hover {   /*aboutsection */
     list-style-type: none;
     padding: 2px 6px;
     text-align: left;
+}
+
+
+#benefit-circle {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 3px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#leaves-bg {
+    background: url('../images/legs-in-leaves.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+#carpark-bg {
+    background: url('../images/cormeen-carpark-walkers.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -406,14 +440,24 @@ footer {
 
 /* Media queries */
 
+/* About text block breaks at 1340 coz need height at 300px so map & pic fill block */
+
+@media screen and (max-width: 1340px) {
+
+    #aboutsection div {
+        width: 100%;
+        background-color: rgba(18, 200, 109, 0.8);
+        height: auto;
+    }
+}
+
 /* For larger to medium screens size like tablet < 1040px */
 @media screen and (max-width: 1040px) {
 
-    
-    #aboutsection div {
-        width: 100%;
-        background-color: rgba(151, 96, 119, 0.8);
-        height: 100%;
+    #aboutsection img,
+    #aboutsection iframe {
+        width: 100%;  
+        height: auto;
     }
 
     #groups div {
@@ -432,11 +476,13 @@ footer {
 
     #hero-text,
     #hero-text p {
-        width: 70%;     /* so hero text (tag line) will fit in screen */
+        width: 70%;
+        /* so hero text (tag line) will fit in screen */
     }
 
     .benefit-section {
-        flex-direction: column;   /* benefit section breaks at 570px, so want to stack < 570 */
+        flex-direction: column;
+        /* benefit section breaks at 570px, so want to stack < 570 */
 
     }
 }
@@ -466,7 +512,7 @@ footer {
     #hero-container {
         height: 80vh;
     }
-    
+
     #hero-links {
         font-size: 80%;
         letter-spacing: 0;
