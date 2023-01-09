@@ -5,11 +5,11 @@ SOB 👩🏻‍💻 View an example of this section [here](https://github.com/ke
 
 This website is a landing page for anyone living around Cormeen that want to know when the Cormeen Walkers meet, they can view the gallery to see photos of the various groups and they can signup for the quarterly newsletter by providing their first name and a valid email address.
 
-I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.(Add a Blurb about the site here, what does it do, why did you build it?)
+I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.  specifically do not want to include my contact phone number as I am trying to avoid receiving calls.(Add a Blurb about the site here, what does it do, why did you build it?)
 
 SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
-SOBAdd the GitHub link to the live site here 
+The GitHub link to the live site is https://siobhain.github.io/cormeen-walkers/
 
 SOB?? If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
@@ -59,11 +59,11 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 
 #### Client Goals
 
-- To minimise amount of time explaining when/where the walking groups meet, the guidelines, the routes taken & distance covered.
+- To minimise amount of time explaining when/where the walking groups meet, the pace, the routes taken & distance covered.
 - Site to be responsive -  viewable on all device sizes 
-- Users can signup for newsletter with an email address
-- Users can easily find eircode and phone number
-- Users can view gallery with photos of past walks.
+- Users can signup to receive a newsletter with a name & email address
+- Users can easily find eircode (Purposely not including putting phone on website)
+- Users can view gallery with photos of whats to be seen on the walks.
 
 #### Key information
 
@@ -75,7 +75,7 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 First time user
 - Looking for general information about the group
 - Looking for meet up times, location
-- Looking for contact phone number
+-SOB Looking for contact phone number
 
 -May arrive at this page via web search or direct link
 -landing page - 
@@ -84,7 +84,6 @@ Most people want to know when group they are interested in are meeting, Some peo
 
 Returning Visitors
  - looking for times
- - looking for phone number
  - looking for eircode
 
  
@@ -142,11 +141,11 @@ The site consistes of 3 pages Home, Gallery & Signup. Each page can be reached f
 
 For consistency of user experience the header and footer is same on each of the 3 pages.
 The header contains the logo & navigation links to get around the website.
-The footer contains contact details & social media links.
+The footer contains social media links.
 
 The Gallery page reinforces the sense of community and inclusion by displaying images of walkers on a virtual photo wall.
 
-The Signup page contains a form asking for users name and a verified email address, a submit button which will change colour when used, once submitted the user will be advised to check their inbox for the current newsletter.
+The Signup page contains a form asking for users first name and a verified email address, a submit button which will change colour when used, once submitted the user will receive a confirmation message & advised to check their inbox for the current newsletter.
 
 ** RESPONSIVE
 This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.
@@ -161,7 +160,7 @@ Header & Footer common to all 3 pages
 
 - Home Page : Hero Image, Guidelines, Times
 - Signup Page : firstname, email form & submit button
-- Gallery Page : 12 photos in masonary style, no gaps
+- Gallery Page : 12 framed photos in masonary style
 
 ### General features on each page
 
