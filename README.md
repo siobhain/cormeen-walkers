@@ -9,6 +9,10 @@ I wrote this website as I was continually contacted for information about the wa
 
 SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
+
+![Mockup](docs/images/amir-walkers2.PNG)
+
+
 The GitHub link to the live site is https://siobhain.github.io/cormeen-walkers/
 
 SOB?? If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
@@ -60,8 +64,8 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 #### Client Goals
 
 - To minimise amount of time explaining when/where the walking groups meet, the pace, the routes taken & distance covered.
-- Site to be responsive -  viewable on all device sizes 
-- Users can signup to receive a newsletter with a name & email address
+- Site to be responsive -  viewable on all device sizes & all commonly used  browsers
+- Users can receive a newsletter by providing a name & email address
 - Users can easily find eircode (Purposely not including putting phone on website)
 - Users can view gallery with photos of whats to be seen on the walks.
 
@@ -74,20 +78,19 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 
 First time user
 - Looking for general information about the group
-- Looking for meet up times, location
--SOB Looking for contact phone number
+- Looking for meet up times & locatipn
 
--May arrive at this page via web search or direct link
+Users may arrive at this page via web search or direct link
 -landing page - 
 Most people want to know when group they are interested in are meeting, Some people are involved in more than one group
 
 
 Returning Visitors
- - looking for times
+ - looking for day and time of a particular walking group
  - looking for eircode
+ - interested in singing up for newsletter
 
  
-
 Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
 
 ## Design
@@ -158,13 +161,13 @@ This ws is responsive, it maintains its layout when viewed on difference screen 
 
 Header & Footer common to all 3 pages
 
-- Home Page : Hero Image, Guidelines, Times
+- Home Page : Hero Image, About, Groups, Information & Benefits
 - Signup Page : firstname, email form & submit button
 - Gallery Page : 12 framed photos in masonary style
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer a nd a favicon.
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
