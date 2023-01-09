@@ -1,0 +1,16 @@
+170,171c170
+<     /* height: 300px; */
+<     display: flex;
+---
+>     height: 300px;
+176,177c175,177
+<     /* width: 50%; */
+<     /* float: left; */
+---
+>     width: 50%;
+>     height: 450px;
+>     float: left;
+204c204
+<     /* width: 50%; */
+---
+>     width: 50%;

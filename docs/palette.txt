@@ -1,4 +1,33 @@
 /* CSS HEX */
+--amaranth-m-p: #9F1F63ff;
+--white: #FFFFFFff;
+
+/* CSS HSL */
+--amaranth-m-p: hsla(328, 67%, 37%, 1);
+--white: hsla(0, 0%, 100%, 1);
+
+/* SCSS HEX */
+$amaranth-m-p: #9F1F63ff;
+$white: #FFFFFFff;
+
+/* SCSS HSL */
+$amaranth-m-p: hsla(328, 67%, 37%, 1);
+$white: hsla(0, 0%, 100%, 1);
+
+/* SCSS RGB */
+$amaranth-m-p: rgba(159, 31, 99, 1);
+$white: rgba(255, 255, 255, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #9F1F63ff, #FFFFFFff);
+$gradient-right: linear-gradient(90deg, #9F1F63ff, #FFFFFFff);
+$gradient-bottom: linear-gradient(180deg, #9F1F63ff, #FFFFFFff);
+$gradient-left: linear-gradient(270deg, #9F1F63ff, #FFFFFFff);
+$gradient-top-right: linear-gradient(45deg, #9F1F63ff, #FFFFFFff);
+$gradient-bottom-right: linear-gradient(135deg, #9F1F63ff, #FFFFFFff);
+$gradient-top-left: linear-gradient(225deg, #9F1F63ff, #FFFFFFff);
+$gradient-bottom-left: linear-gradient(315deg, #9F1F63ff, #FFFFFFff);
+$gradient-radial: radial-gradient(#9F1F63ff, #FFFFFFff);/* CSS HEX */
 --pine-tree: #202906ff;
 --pine-tree-2: #191d0dff;
 --shadow: #94896bff;

@@ -71,7 +71,7 @@ a:hover {
 
 .active {
     border-radius: 2px;
-    border: 1mm solid #9F1F63ff;
+    border: 1mm solid #976077ff;
 }
 
 /* Hero Section */
@@ -165,18 +165,19 @@ a:hover {
 /* About section */
 
 #aboutsection {
-    /* background-color: #202906ff;  */
-    display: flex;
-    flex-wrap: nowrap;
+    background-color: #202906ff; 
     width: 100%;
+    height: 300px;
 }
 
-#about-text-left {
+#aboutsection div {
     letter-spacing: 2px;
+    width: 50%;
+    height: 450px;
+    float: left;
     padding: 10px 10px;
     text-align: left;
-    border: 10px solid #9F1F63ff
-    /* width: 50%; */
+    border: 3px solid #906077ff;
 }
 
 #aboutsection ul {
@@ -193,21 +194,20 @@ a:hover {
 }
 
 .where {
-    background-color: #9F1F63ff
+    background-color: #906077ff;
 }
-/* 
-#aboutsection img {
-    float: left;
-} */
 
 #aboutsection img,
 #aboutsection iframe {
-    /* background-color: #9F1F63ff */
-    border: 4px solid #9F1F63ff;
-    /* width: 50%;
-    height: 100%; */
+    background-color: #906077ff;
+    border: 3px solid #906077ff;
+    width: 50%;
+    height: 100%;
 }
 
+#aboutsection iframe {
+    float: right;
+}
 
 /* Group Section */
 
@@ -298,7 +298,7 @@ a:hover {
 footer {
     /* clear: both; */
     height: 75px;
-    background-color: #9F1F63ff;
+    background-color: #976077ff;
     /* full mauve*/
     text-align: center;
     margin-top: 0;
