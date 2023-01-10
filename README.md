@@ -89,7 +89,7 @@ Returning Visitors
  - looking for day and time of a particular walking group
  - looking for eircode
  - interested in singing up for newsletter
-
+EIRCODE EIRCODE EIRCODE forgot about it had to redo About CSC section aaaargh
  
 Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
 

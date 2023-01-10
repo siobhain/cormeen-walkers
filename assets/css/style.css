@@ -1,4 +1,4 @@
-/* style.css for cormeenwalkers by Siobhan O'Brien Dec 2022 */
+/* style.css for cormeenwalkers by Siobhain O'Brien Dec 2022 */
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&display=swap');
 
@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-family: Bitter, serif;
-    color: #3e491cff;
+/*    color: #202906ff; /*#3e491cff;*/
     text-transform: uppercase;
 }
 
@@ -47,6 +47,7 @@ h1 {
 
 #menu,
 #logo {
+    color: #202906ff; /*#3e491cff;*/
     line-height: 75px;
 }
 
@@ -58,20 +59,20 @@ h1 {
 
 #menu a,
 #thanks a {
-    text-decoration: none;
+    /* text-decoration: none; */
     /* color: #708212ff; */
-    color: #3e491cff]
+    /* color: #3e491cff; */
     padding: 2px;
 }
 
 a:hover {
-    background-color: rgba(32, 41, 6, 0.5);
+    background-color: rgba(32, 41, 6, 0.8);
     border: 2px solid #708212ff;
 }
 
 .active {
     border-radius: 2px;
-    border: 1mm solid #9F1F63ff;
+    border: 1mm outset #711646ff;
 }
 
 /* Hero Section */
@@ -91,20 +92,27 @@ a:hover {
     animation-fill-mode: forw/ards; */
 }
 
-#hero-links ul {
-    display: flex;
+/* #hero-links ul {
+    display: inline;
     list-style-type: none;
     margin-top: 8px;
-}
+} */
+
+#hero-links li {
+    display: inline;
+    list-style-type: none;
+    margin-top: 8px;
+} 
 
 #hero-links a {
     /* background-color:  rgba(32, 41, 6, 0.8); */
-    background-color: rgba(151, 137, 96, 1);
-    letter-spacing: 3px;
+    /* background-color: rgba(151, 137, 96, 1); */
+    background-color: rgba(113, 22, 70, 0.8);
+     letter-spacing: 3px;
     color: #fff;
-    font-size: 120%;
+    font-size: 140%;
     font-weight: bold;
-    margin: 0 5px;
+    margin: 5px 5px;
 }
 
 
@@ -113,11 +121,11 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     letter-spacing: 3px;
-    background-color: rgba(151, 137, 96, 1);
-    /*shadow*/
+    background-color: rgba(113, 22, 70, 0.8);
+    /* background-color: rgba(151, 137, 96, 1); */
     /* background-color: rgba(151, 137, 96, 0.8); */
     bottom: 75px;
-    align-items: center;
+    /* align-items: center; */
     position: absolute;
     animation-name: herotext-zoom;
     animation-duration: 3s;
@@ -148,7 +156,7 @@ a:hover {
     }
 
     to {
-        transform: scale(1.8);
+        transform: scale(1.4);
     }
 }
 
@@ -164,46 +172,65 @@ a:hover {
 
 /* About section */
 
-#aboutsection {
-    /* background-color: #202906ff;  */
+#about-section {
+    background-color: #202906ff; 
+    border: 10px outset #711646ff;
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
 }
 
-#about-text-left {
+.about-text {
+    margin: 10px;
     letter-spacing: 2px;
     padding: 10px 10px;
     text-align: left;
-    border: 10px solid #9F1F63ff
+    /* border: 10px outset #fff; */
+    border: 10px outset #711646ff;
     /* width: 50%; */
 }
 
-#aboutsection ul {
+.about-text ul {
     text-indent: 10%;
     list-style-type: none;
-    font-size: 100%;
-    letter-spacing: 2px;
+    /* font-size: 110%; */
+    /* letter-spacing: 2px; */
 }
 
-#aboutsection a {
+#about-text a {
     color: #fff;
     font-weight: bold;
     font-size: 110%;
 }
 
-.where {
-    background-color: #9F1F63ff
+figure {
+    object-fit: cover;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    font-weight: 900;
+}
+
+#about-where {
+    margin: 10px;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    text-align: left;
+    background-color: rgba(113, 22, 70, 0.8);
+    /* border: 10px outset #711646ff; */
+    border: 5px ridge #711646ff;
 }
 /* 
 #aboutsection img {
-    float: left;
+    float: left;/decot
 } */
 
-#aboutsection img,
-#aboutsection iframe {
-    /* background-color: #9F1F63ff */
-    border: 4px solid #9F1F63ff;
+.about-text img,
+#about-where iframe {
+    background-color: #94896bff;
+    border: 3px solid rgba(113, 22, 70, 0.8);
     /* width: 50%;
     height: 100%; */
 }
@@ -211,7 +238,7 @@ a:hover {
 
 /* Group Section */
 
-#groups {
+#groups-section {
     width: 100%;
     border: 4px solid #3e491cff;
     box-sizing: border-box;
@@ -238,16 +265,14 @@ a:hover {
 .benefit-section {
     clear: both;
     display: flex;
-    background-color: rgba(32, 41, 6, 10.9);
-    /* background-color: #978960ff; */
+    background-color: rgba(32, 41, 6, 0.9);
     justify-content: space-around;
     text-align: center;
-}
+  }
 
 .benefit-image {
     width: 300px;
     height: 300px;
-    /* background-color: #978960ff; */
     background-color: rgba(32, 41, 6, 1);
     margin: 10px;
     padding: 30px;
@@ -256,7 +281,6 @@ a:hover {
 }
 
 .benefit-text {
-    /* background-color: rgba(151, 137, 96, 1); */
     background-color: rgba(32, 41, 6, 1);
     border-radius: 15%;
     margin: 10px;
@@ -298,11 +322,9 @@ a:hover {
 footer {
     /* clear: both; */
     height: 75px;
-    background-color: #9F1F63ff;
-    /* full mauve*/
+    background-color: rgba(113, 22, 70, 0.8);
     text-align: center;
-    margin-top: 0;
-    /* position: fixed; */
+    margin-top: 3px;
 }
 
 .social-media {
@@ -331,7 +353,7 @@ footer {
 }
 
 .signup-form {
-    background-color: rgba(151, 137, 96, 0.5);
+    background-color: rgba(151, 137, 96, 0.8);
     width: 50%;
     text-align: center;
     margin: auto;
@@ -405,10 +427,10 @@ footer {
 
 @media screen and (max-width: 1340px) {
 
-    #aboutsection div {
+    /* #about-section div {
         width: 100%;
         height: auto;
-    }
+    } */
 }
 
 /* For larger to medium screens size like tablet < 1040px */
@@ -423,7 +445,7 @@ footer {
     #groups div {
         /*breaks at 1037*/
         width: 50%;
-        border: 5px solid #7;
+        border: 5px solid #202906ff;
     }
 
     .benefit-section {
