@@ -66,8 +66,11 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 - To minimise amount of time explaining when/where the walking groups meet, the pace, the routes taken & distance covered.
 - Site to be responsive -  viewable on all device sizes & all commonly used  browsers
 - Users can receive a newsletter by providing a name & email address
-- Users can easily find eircode (Purposely not including putting phone on website)
+- Users can easily find eircode 
+- Purposely not including contact phone number on this website as main goal is to reduce phone calls)
 - Users can view gallery with photos of whats to be seen on the walks.
+
+- Purposely not including contact phone number on this website as main goal is to reduce phone calls)
 
 #### Key information
 
@@ -103,6 +106,8 @@ Add your user stories here. You want to include first time visitors and returnin
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
+
+
 I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
@@ -119,20 +124,9 @@ I also like to include an image of the fonts chosen as a reference.
 
 https://connectivewebdesign.com/blog/best-google-font-combinations
 
-I chose Bitter & Nunito
-SOB I am mixing a Serif with San SERif
-Sol Matas designed Bitter as a "contemporary" slab serif typeface for text.
-SOB Motivated by her love for the pixel, Sol Matas designed Bitter. A "contemporary" slab serif typeface for text, it is specially designed for comfortably reading on any computer or device. Generally speaking, serif fonts are more traditional, while sans-serif fonts have a more modern feel. But there are exceptions to every rule. “Although the rule of thumb is that sans-serif equals modern and serif equals traditional
-Bitter is specially designed for comfortably reading on any computer or device. 
-Nunito is a well balanced sans serif typeface superfamily,
+The fonts used for this website are Bitter & Nunito, Bitter is a serif type font & used for logo "Cormeen Walkers" in the header. Nunito is a san serif type font and used for all other text. Both fonts are imported from [Google Fonts](https://fonts.google.com/).  
 
-This combination creates a clean-looking website without extras to distract from the information. 
-When blended, these fonts create a clean look & make it easier for website visitors to pick up key information.
-
-SOB In addition, they work well with designs that incorporate tranquil white space.
-SOB The clean website design works well if you do not want a very detailed look for your pages. Find out more about this option with our team.
-
-
+With these font choices I have made the conscious decision to mix a serif with a san serif. The serif Bitter is used only in the header of the web page & although it is a traditional style it has a modern twist. The font is specifically designed for comfortably reading on any computer or device and is refeered to as a 'contemporary' serif typeface for text.  I did want to use a traditional type font for the logo but not one designed over 100 years ago and so Bitter became my choice. For the main text I wanted a clean looking text without extras so as not to distract from the information presented, but one that also blended well with the Bitter logo. Hence I chose Nunito which is a well balanced san serif type font & I think they work well together in this case.
 ### Imagery
 
 Use this section to explain what sort of imagery you plan to use through your site.
@@ -141,15 +135,21 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ![3 Page Website](docs/images/cormeenwalkers-pages.bmpr)
 
-The site consistes of 3 pages Home, Gallery & Signup. Each page can be reached from the menu in the header.  The currect page is highlighted.  The home page has the most important information (highest priority) such as meet up times and guidelines as to what to wear & motivational messages describing the benefits of 'walking and talking'.
+The site consistes of 3 pages Home, Gallery & Signup. Each page can be reached from the menu in the header.  The currect active page is highlighted with a box border*** clearly visible to the user.
+
+The home page has the most important information such as the "When and Where" of the walking groups.   location and  meet up times 
 
 For consistency of user experience the header and footer is same on each of the 3 pages.
+
 The header contains the logo & navigation links to get around the website.
-The footer contains social media links.
+The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" *** along with social media links the home page of facebook, twitter & instagram.  As the site is for educational purposes only there are no social media accounts to link to. This informaiton is also outlined in the footer.
 
-The Gallery page reinforces the sense of community and inclusion by displaying images of walkers on a virtual photo wall.
+The Gallery page reinforces the sense of countryside, farmland & fresh air by displaying images of sights to be seen while on one of these walks. 
 
-The Signup page contains a form asking for users first name and a verified email address, a submit button which will change colour when used, once submitted the user will receive a confirmation message & advised to check their inbox for the current newsletter.
+
+				Cormeen Walkers take a quarterly excursion to nearby Loughanlae where its alleged you can see 22 counties of Ireland on a good day! We announce details of upcoming trip in our quarterly newsletter along with photos and gossip from our most recent outing.<br>
+				<br>Enter your details below to receive our Quarterly Newsletter (also gets rid of this fo
+The Signup page outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of upcoming trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from receiving it. The confirmation notice is held on a seperate html pag called confirm but this is oblivious to the user as same backdrop is used for both pages. 
 
 ** RESPONSIVE
 This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.
@@ -191,7 +191,12 @@ Cormeen Sports Complex eircode a82 ft62 is in North County Meath close to the Ca
 				through the seasons, roads so quite that some have the grassy center!
 ### Future Implementations
 
-During the summer there is a hillwalk on Sundays 10am.
+Future 
+
+The current newsletter and archives of past newsletter be made available to user
+A "Route" section with drawing on google maps screenchots of routes travelled by the walking groups.  There are 8 different looped routes that can be taken form this crossroads location and each has its own uniqueness.  There are also 4 crosscountry/farmland routes to local townland/villages which were used by our ancestors in olden days where right of way is still upheld & thes eroutes could also be documented on the website.
+Links on the web site to join the various Whatsapp groups maintained by Walk Leaders.
+
 
 ### Accessibility
 
@@ -211,13 +216,13 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML & CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
-
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Make sure to include things like 
+git, GitHub,
+wireframe handwritten the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
 
 A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
 
