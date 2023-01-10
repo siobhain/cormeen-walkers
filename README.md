@@ -90,6 +90,7 @@ Returning Visitors
  - looking for eircode
  - interested in singing up for newsletter
 EIRCODE EIRCODE EIRCODE forgot about it had to redo About CSC section aaaargh
+had to add whole pile about eircodes directions etc and change footer
  
 Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
 
