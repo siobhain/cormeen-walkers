@@ -69,7 +69,7 @@ a:hover {
 }
 
 .active {
-    border: 1mm outset #711646ff;
+    border: 1mm solid #711646ff;
 }
 
 /* Hero Section */
@@ -188,7 +188,7 @@ a:hover {
     /* background-color: #202906ff; */
     background-color: rgba(32, 41, 6, 0.9);
     /* background-color: rgba(113, 22, 70, 0.8); */
-    border: 10px outset #711646ff;
+    border: 10px solid #711646ff;
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -199,8 +199,8 @@ a:hover {
     letter-spacing: 2px;
     padding: 10px 10px;
     text-align: left;
-    /* border: 10px outset #fff; */
-    border: 10px outset #711646ff;
+    /* border: 10px solid #fff; */
+    border: 10px solid #711646ff;
     /* width: 50%; */
 }
 
@@ -234,7 +234,6 @@ figcaption {
     width: 90%;
 }
 
-
 /* Group Section */
 
 #groups-section {
@@ -252,11 +251,13 @@ figcaption {
     padding: 30px 0 0 10px;
     text-align: center;
     border: 3px solid #202906ff;
-    box-sizing: border-box;
 }
 
 #groups-section h2 {
+    font-size: 200%;
+    padding: 2px 0;
     color: #fff;
+    border: 3px solid #191d0dff;
 }
 
 /* Benefit Section */
@@ -314,11 +315,10 @@ figcaption {
 /* Footer */
 
 footer {
-    /* clear: both; */
-    height: 75px;
+    height: 88px;
     background-color: rgba(113, 22, 70, 0.8);
     text-align: center;
-    margin-top: 3px;
+    /* margin-top: 3px; */
 }
 
 .social-media {
@@ -333,7 +333,6 @@ footer {
     margin: 1%;
     color: #fff;
 }
-
 
 /* Form Section */
 
@@ -359,7 +358,7 @@ footer {
     font-family: inherit;
     font-weight: bold;
     color: #708212ff;
-    border: 2px ridge rgba(32, 41, 6, 1);
+    border: 2px solid rgba(32, 41, 6, 1);
     padding: 13px;
     margin-bottom: 26px
 }
@@ -421,12 +420,14 @@ footer {
     clear: both;
     color: #191d0dff;
     background-color: #978960ff;
+    padding: 5px;
+    text-align: center;
     column-count: 3;
     margin: 0px;
 }
 
 #photos img {
-    width: 100%;
+    width: 90%;
     border: 3px solid #191d0dff;
     margin: 3px;
 }
@@ -444,18 +445,14 @@ footer {
 }
 
 /* For larger to medium screens size like tablet < 1040px */
+
 @media screen and (max-width: 1040px) {
 
-    /* #about-section img,
-    #about-section iframe {
-        width: 100%;
-        height: auto;
-    } */
 
-    /* #groups-section div {
+    #groups-section div {
         width: 50%;
         border: 5px solid #202906ff;
-    } */
+    }
 
     .benefit-section {
         flex-wrap: wrap;
@@ -466,9 +463,10 @@ footer {
         align-self: center;
     }
 
+    /* 
     footer {
         padding: 0 20px;
-    }
+    } */
 }
 
 /* screens < 930px*/
@@ -515,9 +513,16 @@ footer {
         width: 70%;
     }
 
+
+    #groups-section div {
+        width: 100%;
+        border: 5px solid #202906ff;
+    }
+
+
     .benefit-text {
         width: auto;
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .benefit-section {
@@ -544,6 +549,10 @@ footer {
         font-size: 90%;
     }
 
+    #gallery {
+        font-size: 100%;
+    }
+
 }
 
 
@@ -565,8 +574,8 @@ footer {
         padding: 1px;
     }
 
-    #hero-container {
-        height: 80vh;
+    #hero-section {
+        height: 30vh;
     }
 
     #hero-links {
@@ -580,28 +589,25 @@ footer {
         animation-name: herotext-smallzoom;
     }
 
-    /*About section*/
-
-    #aboutsection div {
-        width: 100%;
-        float: left;
-    }
-
-    .benefit-text {
-        width: auto;
-        font-size: 70%;
-    }
-
 
     /* footer*/
     footer {
         font-size: 50%;
-        height: auto;
+        /* height: auto; */
     }
 
     /* Gallery */
 
+    #gallery {
+        font-size: 50%;
+    }
+
     #photos {
         column-count: 1;
+    }
+
+    /* form */
+    .signup-form {
+        width: 80%;
     }
 }
