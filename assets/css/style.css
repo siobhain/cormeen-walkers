@@ -260,7 +260,7 @@ figcaption {
     width: 25%;
     height: 300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 30px 3px 3px 10px;
     text-align: center;
     border: 3px solid #fff;
 }
@@ -461,9 +461,8 @@ footer {
 @media screen and (max-width: 1040px) {
 
 
-    #groups-section div {
+    #groups-box {
         width: 50%;
-        border: 5px solid #202906ff;
     }
 
     .benefit-section {
@@ -526,9 +525,8 @@ footer {
     }
 
 
-    #groups-section div {
+    #groups-box  {
         width: 100%;
-        border: 5px solid #202906ff;
     }
 
 

@@ -1,3 +1,10 @@
+Wed Jan 11 06:21:06 2023 +0000 mq: groups signup gallery
+Wed Jan 11 04:07:45 2023 +0000 gallery: add gallery box  & media queries
+Tue Jan 10 21:37:24 2023 +0000 README add outline features future implementation
+Tue Jan 10 05:29:37 2023 +0000 bug: remove cormeen walkers icon from title
+Tue Jan 10 05:09:17 2023 +0000 color: improve contrast & about: more eircode
+Tue Jan 10 02:05:42 2023 +0000 about: prominent CSC eircode borders colors & eircode to footer
+Mon Jan 9 21:38:52 2023 +0000 about: change to flex Add CSC content + caption
 Mon Jan 9 16:22:04 2023 +0000 doc: Update README, Change Palette AGAIN hence lots colors changed
 Mon Jan 9 01:04:48 2023 +0000 mix: mq header/nav, change bene shapes, update README
 Sun Jan 8 20:30:08 2023 +0000 bene: uniform shapes for text/image elements Changed content text for signup & confirm
@@ -33,4 +40,4 @@ Tue Dec 27 20:42:20 2022 +0000 add form to signup page
 Tue Dec 27 17:27:38 2022 +0000 cradd navigation block to the 3 pages
 Tue Dec 27 17:05:40 2022 +0000 create file structure, add meta, link css, update README
 Tue Dec 27 14:27:30 2022 +0000 docs: update README include wireframes
-Tue Dec 27 11:31:30 2022 +0000 Initial commitgit log --pretty=format:"%ad %s"
+Tue Dec 27 11:31:30 2022 +0000 Initial commit
