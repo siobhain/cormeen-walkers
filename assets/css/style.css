@@ -103,12 +103,11 @@ a:hover {
 
 #hero-links a {
     /* background-color:  rgba(32, 41, 6, 0.8); */
-    background-color: rgba(151, 137, 96, 1);
-
-    /* background-color: rgba(113, 22, 70, 0.8); */
+    /* background-color: rgba(151, 137, 96, 1); */
+    background-color: rgba(113, 22, 70, 0.8);
     letter-spacing: 3px;
     color: #fff;
-    font-size: 140%;
+    font-size: 150%;
     font-weight: bold;
     margin: 5px 5px;
 }
@@ -259,7 +258,7 @@ figcaption {
     background-color: #3e491cff;
     /* background-color: rgba(151, 137, 96, 1); */
     letter-spacing: 2px;
-    /* border: 3px solid #fff; */
+    border: 3px double #fff;
 }
 
 .groups-box {
@@ -274,7 +273,7 @@ figcaption {
     border: 3px solid #fff;
 }
 
-#groups-box h2 {
+.groups-box h2 {
     font-size: 200%;
     padding: 2px 0;
     color: #fff;
@@ -470,7 +469,7 @@ footer {
 @media screen and (max-width: 1040px) {
 
 
-    #groups-box {
+    .groups-box {
         width: 50%;
     }
 
@@ -518,42 +517,44 @@ footer {
 /* screens < 670px*/
 
 @media screen and (max-width: 670px) {
-
+  
     #logo {
         font-size: 120%;
     }
+
+#hero-links {
+    font-size: 100%;
+    letter-spacing: 0;
+    margin: 0 8px;
+    font-weight: bold;
 }
-
-
-/* for mobile screen size < 650px */
-@media screen and (max-width: 650px) {
 
     #hero-text,
     #hero-text p {
         width: 70%;
     }
 
-
-    #groups-box  {
+    .groups-box  {
         width: 100%;
-    }
-
-
-    .benefit-text {
-        width: auto;
-        font-size: 100%;
     }
 
     .benefit-section {
         flex-direction: column;
         align-content: center;
+        size-adjust: ;
+    }
+
+    .benefit-text {
+        width: 90%;
+        font-size: 100%;
+        margin-top: 10px;
     }
 
     .benefit-image {
-        width: 200px;
+        width: 90%;
         height: 200px;
+        margin-top: 10px;
     }
-
 }
 
 /* screens < 625px*/
