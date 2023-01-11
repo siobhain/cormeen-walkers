@@ -185,10 +185,12 @@ a:hover {
 /* About section */
 
 #about-section {
-    /* background-color: #202906ff; */
-    background-color: rgba(32, 41, 6, 0.9);
+    background-color: #191d0dff;
+    /* background-color: rgba(32, 41, 6, 0.9); */
     /* background-color: rgba(113, 22, 70, 0.8); */
-    border: 10px solid #711646ff;
+
+    /* background-color: #3e491cff; */
+    border: 4px solid #711646ff;
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -199,8 +201,9 @@ a:hover {
     letter-spacing: 2px;
     padding: 10px 10px;
     text-align: left;
+    background-color: rgba(32, 41, 6, 0.9);
     /* border: 10px solid #fff; */
-    border: 10px solid #711646ff;
+    border: 2px solid white;
     /* width: 50%; */
 }
 
@@ -238,11 +241,20 @@ figcaption {
 
 #groups-section {
     width: 100%;
-    border: 4px solid #3e491cff;
+    border: 4px solid #711646ff;
     box-sizing: border-box;
 }
 
-#groups-section div {
+#groups-head {
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(151, 137, 96, 1);
+    letter-spacing: 2px;
+    border: 3px solid #fff;
+}
+
+.groups-box {
     background-color: rgba(151, 137, 96, 1);
     letter-spacing: 2px;
     width: 25%;
@@ -250,14 +262,14 @@ figcaption {
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 3px solid #202906ff;
+    border: 3px solid #fff;
 }
 
 #groups-section h2 {
     font-size: 200%;
     padding: 2px 0;
     color: #fff;
-    border: 3px solid #191d0dff;
+    border: 3px solid #fff;
 }
 
 /* Benefit Section */
@@ -265,7 +277,9 @@ figcaption {
 .benefit-section {
     clear: both;
     display: flex;
-    background-color: rgba(32, 41, 6, 0.9);
+    border: 4px solid #711646ff;
+    background: url(../images/evening-fields.jpg) no-repeat center center;
+    /* background-color: rgba(32, 41, 6, 0.9); */
     justify-content: space-around;
     text-align: center;
 }
@@ -274,14 +288,12 @@ figcaption {
     width: 300px;
     height: 300px;
     background-color: rgba(32, 41, 6, 1);
-    margin: 10px;
     padding: 30px;
     border: 3px solid #fff;
 }
 
 .benefit-text {
     background-color: rgba(32, 41, 6, 1);
-    margin: 10px;
     font-size: 20px;
     border: 3px solid #fff;
     padding: 30px;
@@ -318,7 +330,7 @@ footer {
     height: 88px;
     background-color: rgba(113, 22, 70, 0.8);
     text-align: center;
-    /* margin-top: 3px; */
+    font-size: 60%;
 }
 
 .social-media {
