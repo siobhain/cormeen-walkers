@@ -65,7 +65,7 @@ h1 {
 a:hover {
     background-color: rgba(113, 22, 70, 0.7);
     border: 4px solid #708212ff;
-    background-color: rgba(151, 137, 96, 1);
+    /* background-color: rgba(151, 137, 96, 1); */
 }
 
 .active {
@@ -232,7 +232,7 @@ figure img {
 
 figcaption {
     line-height: 120%;
-    /* text-align: center; */
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -285,9 +285,10 @@ figcaption {
 .benefit-section {
     clear: both;
     display: flex;
+    background-color: rgba(32, 41, 6, 1);
     border: 4px solid #711646ff;
     /* background: url(../images/evening-fields.jpg) no-repeat center center; */
-    background-color: #948966;
+    /* background-color: #948966; */
     justify-content: space-around;
     text-align: center;
 }
@@ -297,6 +298,7 @@ figcaption {
     height: 300px;
     background-color: rgba(32, 41, 6, 1);
     padding: 30px;
+    margin: 10px;
     border: 3px solid #fff;
 }
 
@@ -305,6 +307,7 @@ figcaption {
     font-size: 20px;
     border: 3px solid #fff;
     padding: 30px;
+    margin: 10px;
 }
 
 .benefit-text ul {
@@ -367,6 +370,7 @@ footer {
 
 .signup-form {
     background-color: rgba(151, 137, 96, 0.8);
+    border: 4px solid #202906ff;
     width: 50%;
     text-align: center;
     margin: auto;
@@ -377,16 +381,20 @@ footer {
 .signup-button {
     font-family: inherit;
     font-weight: bold;
-    color: #708212ff;
+    color: #202906ff;
     border: 2px solid rgba(32, 41, 6, 1);
     padding: 13px;
     margin-bottom: 26px
 }
 
 ::placeholder {
-    color: #3e491cff;
-    /* olive*/
+    color: #202906ff;
     font-weight: bold;
+}
+
+.text-input:hover,
+.signup-button:hover {
+    background-color: rgba(113, 22, 70, 0.5);
 }
 
 /* form confirmation */
@@ -407,7 +415,7 @@ footer {
 }
 
 #thanks {
-    /* display: flex; */
+    border: 4px solid #202906ff;
     background-color: rgba(151, 137, 96, 0.8);
     text-align: center;
 }
@@ -506,6 +514,7 @@ footer {
     }
 
     #menu {
+        letter-spacing: 0;
         font-size: 100%;
     }
 
@@ -517,31 +526,31 @@ footer {
 /* screens < 670px*/
 
 @media screen and (max-width: 670px) {
-  
+
     #logo {
         font-size: 120%;
     }
 
-#hero-links {
-    font-size: 100%;
-    letter-spacing: 0;
-    margin: 0 8px;
-    font-weight: bold;
-}
+    #hero-links {
+        font-size: 90%;
+        letter-spacing: 0;
+        margin: 0 8px;
+        font-weight: bold;
+    }
 
     #hero-text,
     #hero-text p {
         width: 70%;
+        bottom: 40px;
     }
 
-    .groups-box  {
+    .groups-box {
         width: 100%;
     }
 
     .benefit-section {
         flex-direction: column;
         align-content: center;
-        size-adjust: ;
     }
 
     .benefit-text {
@@ -566,36 +575,11 @@ footer {
     }
 
     #menu {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     #gallery {
         font-size: 100%;
-    }
-
-}
-
-
-/* For smaller mobile < 375px */
-@media screen and (max-width: 375px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        line-height: 25px;
-    }
-
-    #menu a {
-        font-size: 80%;
-        letter-spacing: 0;
-        margin: 0 8px;
-        padding: 1px;
-    }
-
-    #hero-section {
-        height: 30vh;
     }
 
     #hero-links {
@@ -605,15 +589,85 @@ footer {
         font-weight: bold;
     }
 
+
+}
+
+
+/* For smaller mobile < 520px */
+@media screen and (max-width: 520px) {
+
+    #logo {
+        font-size: 80%;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #menu a {
+        font-size: 80%;
+        letter-spacing: 1;
+        margin: 0 8px;
+        padding: 1px;
+    }
+    
+    #hero-links {
+        font-size: 70%;
+    }
+
+}
+
+/* smaller mobiles */
+
+@media screen and (max-width: 400px) {
+
+
+    #logo,
+    #menu {
+        display: block;
+        /* text-align: center; */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    #hero-section {
+        height: 30vh;
+    }
+
+    #hero-links,
+    #hero-text {
+        font-size: 50%;
+    }
+
+    #hero-text{
+        bottom: 25px;
+    }
+
     #hero-text {
         animation-name: herotext-smallzoom;
+    }
+
+    .about-section {
+        font-size: 70%;
+    }
+
+    .about-box a {
+        font-size: 90%;
     }
 
 
     /* footer*/
     footer {
         font-size: 50%;
-        /* height: auto; */
+        height: 48px;
     }
 
     /* Gallery */
