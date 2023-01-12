@@ -1,23 +1,32 @@
 # Cormeen Walkers
+
+
+describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+
 SOB This is a WIP of my README, Anything preceeded by SOB is a placeholder for future edits
 
 SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
-This website is a landing page for anyone living around Cormeen that want to know when the Cormeen Walkers meet, they can view the gallery to see photos submitted by the walkers and they can signup for the quarterly newsletter by providing their first name and a valid email address.
+# Overview
+Cormeen Walkers is a website about walking groups that meet for their walk at Cormeen Sports Complex in rural Co Meath.  There are 3 diverse walking groups that meet weekly although one group, the Power Walkers meet twice a week.  Each group has their own pace and distance but all walks are completed in an hour. The website gives information about when each group meet, where they meet & how far they walk. Each quarter there is a longer 3 hour walk walk in the nearby mountain and details about this excursion can be received by signing up for the newsletter.  There is a gallery with photos taken by Cormeen Walkers. 
 
-I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them all of the information they seeking. I specifically do not want to include a contact phone number as I am trying to avoid receiving calls. (Add a Blurb about the site here, what does it do, why did you build it?)
+## Goal
+I created this website as I was continually contacted for information about these walking groups, when and where they meetup etc & I want to be able to direct them to the website whihc will give them all of the information they seek. I specifically do not want to include a contact phone number as I am trying to avoid receiving calls. 
+
+## Target Audience
+This website is a landing page for 
+- Anyone living in the locality looking for information about walking groups.
+- Those who know vaguely of the groups' existence but need specific information about meetup day/time & distance covered.
+- Those who have lapsed in attending weekly walks and want to start walking again.
+- New people who have moved into the area.
 
 SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
 
-![Mockup](docs/images/amir-walkers2.PNG)
-
-
 The GitHub link to the live site is https://siobhain.github.io/cormeen-walkers/
 
-SOB?? If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
-
 ---
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ## CONTENTS
 
@@ -65,67 +74,37 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 
 - To minimise amount of time explaining when/where the walking groups meet, the pace, the routes taken & distance covered.
 - Site to be responsive -  viewable on all device sizes & all commonly used  browsers
-- Users can receive a newsletter by providing a name & email address
-- Users can easily find eircode of the meeting place
-- Purposely do not want to include a contact phone number on this website as main goal is to reduce phone calls.
-- Users can view gallery with photos of whats to be seen on the walks.
-
-- Purposely not including contact phone number on this website as main goal is to reduce phone calls)
-
-#### Key information
-
-##### Guidelines
-- No dogs
-- High Visibility Jacket
-- Weather appropriate Clothing & footwear
-
-First time user can be
-- Interesteing in finding out more about Cormeen Walkers
-- Looking for general information about the walking groups and where they meet.
-- Looking for meet up times & location of a particular group.
-- Looking for duration & distance of each groups' walks
-
+- Users to receive a newsletter by providing a name & email address
+- Users can easily find eircode of the meeting place and/or pin meeting place on google maps.
+- Purposely do NOT include a contact phone number on this website as a main goal is to reduce number of phone calls.
+- Users can view gallery with photos of whats to be seen on the walks & invited to let walk leader know if they have photos to add.
 
 Users may arrive at this page via web search or direct link
--landing page - 
-Most people want to know when group they are interested in are meeting, Some people are involved in more than one group
 
+First time user can be
+- Interesting in finding out more about Cormeen Walkers.
+- Looking for general information about the walking groups and where they meet.
+- Looking for meet up times & location of a particular group.
+- Looking for duration & distance of each groups' walks.
 
 Returning Visitors
  - looking for day and time of a particular walking group
  - looking for directions or eircode for the meetup location
  - interested in singing up for newsletter
 
-EIRCODE EIRCODE EIRCODE forgot about it had to redo About CSC section aaaargh
-had to add whole pile about eircodes directions etc and change footer
- 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
-
 ## Design
 
 👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
 
+
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+The colors chosen reflect the countryside lanes and the building at the meetup location.
+SOB
 
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
-
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
-
-https://connectivewebdesign.com/blog/best-google-font-combinations
 
 The fonts used for this website are Bitter & Nunito, Bitter is a serif type font & used for logo "Cormeen Walkers" in the header. Nunito is a san serif type font and used for all other text. Both fonts are imported from [Google Fonts](https://fonts.google.com/).  
 
@@ -133,33 +112,34 @@ With these font choices I have made the conscious decision to mix a serif with a
 
 ### Imagery
 
-For the hero page
+I have chosen a picture of a country lane typical of the locality in which the walks take place as the hero image.
+I have included a picture of Cormeen Sports Complex to job memory of the user as to where the meetup place is.
+There are 2 further photos in the home page in whats called the 'benefits' section but what i should rename as the 'information' section.  The 1st is taken in Jan 2022 outside CSC before the Family Walkers start.  The 2nd is a close up of walking in leaves to encourage the user to come out walking, It is beside the 'Benefits to Walkers' text so meant as a motivitational picture.
+
+The Signup page (Newsletter in navigation menu) has a background image from Lough an Lae our local mountain. This is a treaser for users as the signup panel covers most of this picture and if they signup they panel goes away and they get to see the beautiful   singing up for the newsletter as this
 
 - Icons 
 
-
-
+- The are 9 icons used in this website and they are are freely availabel from [Font Awesome](https://fontawesome.com/), The 9 icons are outlined [here](docs/fa-icon.PNG)
 Use this section to explain what sort of imagery you plan to use through your site.
 
 ### Wireframes
 
 ![3 Page Website](docs/images/cormeenwalkers-pages.bmpr)
 
-The site consistes of 3 pages Home, Gallery & Signup. Each page can be reached from the menu in the header.  The currect active page is highlighted with a box border*** clearly visible to the user.
+The site consistes of 3 pages Home, Newsletter & Gallery. Each page can be reached from the menu in the header.  The currect active page is highlighted with a box border*** clearly visible to the user.
 
-The home page has the most important information such as the "When and Where" of the walking groups.   location and  meet up times 
+The home page (named index.html) has the most important information such as the "When and Where" of the walking groups, the days of the week each group meet & details about the distance and pace of the walk.
 
 For consistency of user experience the header and footer is same on each of the 3 pages.
 
 The header contains the logo & navigation links to get around the website.
-The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" *** along with social media links the home page of facebook, twitter & instagram.  As the site is for educational purposes only there are no social media accounts to link to. This informaiton is also outlined in the footer.
+The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" *** along with social media ison links to home page of facebook, twitter youtibe & instagram.  As the site is for educational purposes only there are no social media channels to link to. This informaiton is also outlined in the footer.
+
+The newsletter page (named signup.html) outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of upcominthe next trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from receiving it. The confirmation notice is held on a seperate html page named confirm.html but user is oblivious as same backdrop is used for both signup and confirm pages. 
+
 
 The Gallery page reinforces the sense of countryside, farmland & fresh air by displaying images of sights to be seen while on one of these walks. 
-
-
-				Cormeen Walkers take a quarterly excursion to nearby Loughanlae where its alleged you can see 22 counties of Ireland on a good day! We announce details of upcoming trip in our quarterly newsletter along with photos and gossip from our most recent outing.<br>
-				<br>Enter your details below to receive our Quarterly Newsletter (also gets rid of this fo
-The Signup page outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of upcoming trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from receiving it. The confirmation notice is held on a seperate html pag called confirm but this is oblivious to the user as same backdrop is used for both pages. 
 
 ** RESPONSIVE
 This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.
@@ -177,6 +157,8 @@ Header & Footer common to all 3 pages
 - Gallery Page : 12 framed photos in masonary style
 
 ### General features on each page
+
+Common to all 3 pages are the header, navigation bar & footer.
 
 If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer a nd a favicon.
 
@@ -201,11 +183,15 @@ Cormeen Sports Complex eircode a82 ft62 is in North County Meath close to the Ca
 				through the seasons, roads so quite that some have the grassy center!
 ### Future Implementations
 
-Future 
+The following features and improvements are up for consideration for the next version fo the website :
 
-The current newsletter and archives of past newsletter be made available to user
-A "Route" section with drawing on google maps screenchots of routes travelled by the walking groups.  There are 8 different looped routes that can be taken form this crossroads location and each has its own uniqueness.  There are also 4 crosscountry/farmland routes to local townland/villages which were used by our ancestors in olden days where right of way is still upheld & thes eroutes could also be documented on the website.
-Links on the web site to join the various Whatsapp groups maintained by Walk Leaders.
+- The current newsletter and archives of past newsletter be available for viewing.
+- A "Route" section with drawing on google map screenchots of the various road routes used  by the walking groups.  There are 8 different looped routes that can be taken form this crossroads location and each has its own uniqueness.  
+- There are 4 offroad crosscountry routes to local townlands/villages which were used by our ancestors in days gone by & the right of way is still upheld, These crosscountry routes be outlined and documented on the website, they are called Mass Paths.
+- Links on the web site to join the various Whatsapp groups maintained by Walking Group Leaders.
+- Consideration should be given if a contact phone number is required, this will largely be determined by feedback form current users.
+- Add any new walking groups that have started up since.
+
 
 
 ### Accessibility
