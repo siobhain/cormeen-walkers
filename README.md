@@ -3,9 +3,9 @@ SOB This is a WIP of my README, Anything preceeded by SOB is a placeholder for f
 
 SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
-This website is a landing page for anyone living around Cormeen that want to know when the Cormeen Walkers meet, they can view the gallery to see photos of the various groups and they can signup for the quarterly newsletter by providing their first name and a valid email address.
+This website is a landing page for anyone living around Cormeen that want to know when the Cormeen Walkers meet, they can view the gallery to see photos submitted by the walkers and they can signup for the quarterly newsletter by providing their first name and a valid email address.
 
-I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.  specifically do not want to include my contact phone number as I am trying to avoid receiving calls.(Add a Blurb about the site here, what does it do, why did you build it?)
+I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them all of the information they seeking. I specifically do not want to include a contact phone number as I am trying to avoid receiving calls. (Add a Blurb about the site here, what does it do, why did you build it?)
 
 SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
@@ -66,8 +66,8 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 - To minimise amount of time explaining when/where the walking groups meet, the pace, the routes taken & distance covered.
 - Site to be responsive -  viewable on all device sizes & all commonly used  browsers
 - Users can receive a newsletter by providing a name & email address
-- Users can easily find eircode 
-- Purposely not including contact phone number on this website as main goal is to reduce phone calls)
+- Users can easily find eircode of the meeting place
+- Purposely do not want to include a contact phone number on this website as main goal is to reduce phone calls.
 - Users can view gallery with photos of whats to be seen on the walks.
 
 - Purposely not including contact phone number on this website as main goal is to reduce phone calls)
@@ -79,9 +79,12 @@ SOB?? If you want to add optional [shields.io](https://shields.io) badges to you
 - High Visibility Jacket
 - Weather appropriate Clothing & footwear
 
-First time user
-- Looking for general information about the group
-- Looking for meet up times & locatipn
+First time user can be
+- Interesteing in finding out more about Cormeen Walkers
+- Looking for general information about the walking groups and where they meet.
+- Looking for meet up times & location of a particular group.
+- Looking for duration & distance of each groups' walks
+
 
 Users may arrive at this page via web search or direct link
 -landing page - 
@@ -90,8 +93,9 @@ Most people want to know when group they are interested in are meeting, Some peo
 
 Returning Visitors
  - looking for day and time of a particular walking group
- - looking for eircode
+ - looking for directions or eircode for the meetup location
  - interested in singing up for newsletter
+
 EIRCODE EIRCODE EIRCODE forgot about it had to redo About CSC section aaaargh
 had to add whole pile about eircodes directions etc and change footer
  
@@ -105,7 +109,6 @@ Add your user stories here. You want to include first time visitors and returnin
 ### Colour Scheme
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
-
 
 
 I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
@@ -127,7 +130,14 @@ https://connectivewebdesign.com/blog/best-google-font-combinations
 The fonts used for this website are Bitter & Nunito, Bitter is a serif type font & used for logo "Cormeen Walkers" in the header. Nunito is a san serif type font and used for all other text. Both fonts are imported from [Google Fonts](https://fonts.google.com/).  
 
 With these font choices I have made the conscious decision to mix a serif with a san serif. The serif Bitter is used only in the header of the web page & although it is a traditional style it has a modern twist. The font is specifically designed for comfortably reading on any computer or device and is refeered to as a 'contemporary' serif typeface for text.  I did want to use a traditional type font for the logo but not one designed over 100 years ago and so Bitter became my choice. For the main text I wanted a clean looking text without extras so as not to distract from the information presented, but one that also blended well with the Bitter logo. Hence I chose Nunito which is a well balanced san serif type font & I think they work well together in this case.
+
 ### Imagery
+
+For the hero page
+
+- Icons 
+
+
 
 Use this section to explain what sort of imagery you plan to use through your site.
 
@@ -253,6 +263,8 @@ Start as you mean to go on - and get used to writing a TESTING.md file from the 
 Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+
+background colors
 
 ## Credits
 SOB Irish Heart Foundation
