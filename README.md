@@ -1,8 +1,6 @@
 unfortunately my html and css are not passing validators
 # Cormeen Walkers
-
-SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
-
+![](docs/images/amiresponsive.PNG)
 # Overview
 Cormeen Walkers is a website about walking groups that meet for their walk at Cormeen Sports Complex in rural Co Meath.  There are 3 diverse walking groups that meet weekly although one group, the Power Walkers meet twice a week.  Each group has their own pace and distance but all walks are completed in an hour. The website gives information about when each group meet, where they meet & how far they walk. Each quarter there is a longer 3 hour walk in the nearby mountain and details about this excursion can be received by signing up for the newsletter.  There is a gallery with photos taken by Cormeen Walkers. 
 
@@ -15,8 +13,6 @@ This website is a landing page for
 - Those who know vaguely of the groups' existence but need specific information about meetup day/time & distance covered.
 - Those who have lapsed in attending weekly walks and want to start walking again.
 - New people who have moved into the area.
-
-SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/amiresponsive) 
 
 
 The GitHub link to the live site is https://siobhain.github.io/cormeen-walkers/
