@@ -1,10 +1,6 @@
 # Cormeen Walkers
 
 
-describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-SOB This is a WIP of my README, Anything preceeded by SOB is a placeholder for future edits
-
 SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
 # Overview
@@ -24,9 +20,6 @@ SOBAdd an image of the finished site here - use [amiresponsive](https://ui.dev/a
 
 
 The GitHub link to the live site is https://siobhain.github.io/cormeen-walkers/
-
----
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ## CONTENTS
 
@@ -66,8 +59,6 @@ In this section, you should go over the different parts of your project, and des
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
 #### Client Goals
@@ -81,27 +72,26 @@ In this section, you should go over the different parts of your project, and des
 
 Users may arrive at this page via web search or direct link
 
-First time user can be
+##### First time user can be
 - Interesting in finding out more about Cormeen Walkers.
 - Looking for general information about the walking groups and where they meet.
 - Looking for meet up times & location of a particular group.
 - Looking for duration & distance of each groups' walks.
 
-Returning Visitors
+##### Returning Visitors
  - looking for day and time of a particular walking group
  - looking for directions or eircode for the meetup location
  - interested in singing up for newsletter
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
-
-
 ### Colour Scheme
 
-The colors chosen reflect the countryside lanes and the building at the meetup location.
-SOB
+The colors chosen reflect the countryside lanes and the building at the meetup location. It was very difficult to come up with a suitable palette and I'm still not entirely happy with the current palette.
+
+Colors used are White for most of the text &
+
+![palette](docs/palette.png)
 
 
 ### Typography
@@ -125,42 +115,41 @@ With these font choices I have made the conscious decision to mix a serif with a
 
 ### Wireframes
 
-![3 Page Website](docs/images/cormeenwalkers-pages.bmpr)
+![wireframe](docs/images/cormeenwalkers-pages.bmpr)
 
-The site consistes of 3 pages Home, Newsletter & Gallery. Each page can be reached from the menu in the header.  The currect active page is highlighted with a box border*** clearly visible to the user.
+The original wireframe drawn up before starting any html, the plan is to create a site with 3 pages,  Home, Signup (now Newsletter) & Gallery. 
+Each page can be reached from the menu in the header. The currect active page is highlighted with a box border clearly visible to the user.  
+For consistency of user experience the header and footer are the same on each of the 3 pages.
 
-The home page (named index.html) has the most important information such as the "When and Where" of the walking groups, the days of the week each group meet & details about the distance and pace of the walk.
-
-For consistency of user experience the header and footer is same on each of the 3 pages.
+The home page (named index.html) has the most important information such as the "When and Where" of the walking groups, the days of the week each group meets up & details about the distance and pace of the walk.
 
 The header contains the logo & navigation links to get around the website.
-The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" *** along with social media ison links to home page of facebook, twitter youtibe & instagram.  As the site is for educational purposes only there are no social media channels to link to. This informaiton is also outlined in the footer.
 
-The newsletter page (named signup.html) outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of upcominthe next trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from receiving it. The confirmation notice is held on a seperate html page named confirm.html but user is oblivious as same backdrop is used for both signup and confirm pages. 
+The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" along with social media icon whihc link to home page of facebook, twitter youtibe & instagram.  As the site is for educational purposes only there are no social media channels to link to. This informaiton is also outlined in the footer.
+
+The Newsletter page (file called signup.html) outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of next trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from newsletter. The confirmation notice is held on a seperate html page (file named confirm.html) but user is oblivious as same backdrop is used for both signup and confirm pages. 
 
 
 The Gallery page reinforces the sense of countryside, farmland & fresh air by displaying images of sights to be seen while on one of these walks. 
 
 ** RESPONSIVE
-This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.
+This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.  Media queries for graceful degradation are written from screen sizes < 1200px down to <375px.  
+
+I had to add media query for progressive advancement of screen > 1800px.
 
 ![Mockup](docs/images/cormeenwalkers.jpg)
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+Header & Footer common to all 3 pages & apart from common section the following is the layout of the 3 pages
 
-Header & Footer common to all 3 pages
-
-- Home Page : Hero Image, About, Groups, Information & Benefits
-- Signup Page : firstname, email form & submit button
-- Gallery Page : 12 framed photos in masonary style
+- Home Page : 4 sections : Hero,  About, Groups, Benefits
+- Signup Page : 1 section :  Form (firstname, email form & submit button)
+- Gallery Page : 4 sections (Gallery & Photo) x2
 
 ### General features on each page
 
 Common to all 3 pages are the header, navigation bar & footer.
-
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer a nd a favicon.
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
@@ -202,16 +191,10 @@ Each icon element is given aria-label for accessibility purposes.
 
 Aria-label v alt
 
-Unfortunately I was unable to physically test the site with a screen reader so I am undecided which attribute - aria-label or alt -  is approprite for accessibility. This stems from the fact that devtools inspect element on browser dropdown seems to use the alt value in the 'accessibility' Name property (ex Gallery photos ) did note that the value on my alt attribute for mages was visible on the dropdown inspect visual in devtools  it depends alos on the 
+Unfortunately I was unable to physically test the site with a screen reader. I am undecided which attribute - aria-label or alt -  is most approprate for accessibility. This stems from the fact that devtools inspect element on the browser seems to use the alt value in the 'accessibility' Name property for images I have in the Gallery.  When I had specified an aria-label there was no value in 'accessibility Name' on inspect, on digging I found the DOM Accessibility tab on devtools did contain the aria-label values. However i thought it better in this case to use the alt attrribute due to the fact that accessibility is visible in the top level inspection.
 
+Each icon element has a aria-label as the alt attribute did not seem to have any effect on top level inspection.  It is somewhat strange that in some cases the parent element of icons do seem to absorb some information about the icons but there may be something happening here with fontawesome that is over my head.
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
 
 Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
@@ -253,7 +236,7 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
- Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value cab be clearly seen on the accessibility tab of devtools but not on the inpect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
+ Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value can be clearly seen on the accessibility tab of devtools but not on the inpect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
 
 
 
