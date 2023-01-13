@@ -1,13 +1,12 @@
 # Cormeen Walkers
 
-
 SOB 👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
 
 # Overview
-Cormeen Walkers is a website about walking groups that meet for their walk at Cormeen Sports Complex in rural Co Meath.  There are 3 diverse walking groups that meet weekly although one group, the Power Walkers meet twice a week.  Each group has their own pace and distance but all walks are completed in an hour. The website gives information about when each group meet, where they meet & how far they walk. Each quarter there is a longer 3 hour walk walk in the nearby mountain and details about this excursion can be received by signing up for the newsletter.  There is a gallery with photos taken by Cormeen Walkers. 
+Cormeen Walkers is a website about walking groups that meet for their walk at Cormeen Sports Complex in rural Co Meath.  There are 3 diverse walking groups that meet weekly although one group, the Power Walkers meet twice a week.  Each group has their own pace and distance but all walks are completed in an hour. The website gives information about when each group meet, where they meet & how far they walk. Each quarter there is a longer 3 hour walk in the nearby mountain and details about this excursion can be received by signing up for the newsletter.  There is a gallery with photos taken by Cormeen Walkers. 
 
 ## Goal
-I created this website as I was continually contacted for information about these walking groups, when and where they meetup etc & I want to be able to direct them to the website whihc will give them all of the information they seek. I specifically do not want to include a contact phone number as I am trying to avoid receiving calls. 
+I created this website as I was continually contacted for information about these walking groups, when and where they meetup etc & I want to be able to direct them to the website which will give them all of the information they seek. I specifically do not want to include a contact phone number as I am trying to avoid receiving calls. 
 
 ## Target Audience
 This website is a landing page for 
@@ -115,9 +114,18 @@ With these font choices I have made the conscious decision to mix a serif with a
 
 ### Wireframes
 
-![wireframe](docs/images/cormeenwalkers-pages.bmpr)
+The original wireframe drawn up before starting any html is as follows
 
-The original wireframe drawn up before starting any html, the plan is to create a site with 3 pages,  Home, Signup (now Newsletter) & Gallery. 
+![Wireframe](docs/images/cormeenwalkers.jpg)
+
+The plan is to create a site with 3 pages,  Home, Signup (now Newsletter) & Gallery. 
+
+Header & Footer common to all 3 pages & apart from these common panels the following is the layout of the 3 pages :
+
+- Home Page : 4 sections : Hero,  About, Groups, Benefits
+- Signup Page : 1 section :  Form (firstname, email form & submit button)
+- Gallery Page : 4 sections (Gallery & Photo) x2
+
 Each page can be reached from the menu in the header. The currect active page is highlighted with a box border clearly visible to the user.  
 For consistency of user experience the header and footer are the same on each of the 3 pages.
 
@@ -128,7 +136,6 @@ The header contains the logo & navigation links to get around the website.
 The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" along with social media icon whihc link to home page of facebook, twitter youtibe & instagram.  As the site is for educational purposes only there are no social media channels to link to. This informaiton is also outlined in the footer.
 
 The Newsletter page (file called signup.html) outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of next trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from newsletter. The confirmation notice is held on a seperate html page (file named confirm.html) but user is oblivious as same backdrop is used for both signup and confirm pages. 
-
 
 The Gallery page reinforces the sense of countryside, farmland & fresh air by displaying images of sights to be seen while on one of these walks. 
 
@@ -141,35 +148,61 @@ I had to add media query for progressive advancement of screen > 1800px.
 
 ## Features
 
-Header & Footer common to all 3 pages & apart from common section the following is the layout of the 3 pages
+#### Header :
+The header contains the logo &  a menu of navigation links to get around the website. The menu contains 3 items Home, Newsletter & Gallery which are links to their respective pages.  The currect active page is highlighted with a box border clearly visible to the user.  For consistency of user experience the header and footer are the same on each of the 3 pages.
+
+#### Footer
+The footer contains the tag line "All walks start at 10am from Cormeen Sports Complex" along with social media icon whihc link to home page of facebook, twitter youtibe & instagram.  As the site is for educational purposes only there are no social media channels to link to. This informaiton is also outlined in the footer.
+
+### Page Layout
+SOB ### General features on each page
+
+Common to all 3 pages are the header, navigation bar & footer outlined above, Each individual page is made up of the following unique sections
 
 - Home Page : 4 sections : Hero,  About, Groups, Benefits
 - Signup Page : 1 section :  Form (firstname, email form & submit button)
 - Gallery Page : 4 sections (Gallery & Photo) x2
 
-### General features on each page
 
-Common to all 3 pages are the header, navigation bar & footer.
+#### Home Page
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+##### Hero
+The home page (named index.html) has the most important information such as the "When and Where" of the walking groups, directions to the meetup location,  the days of the week each group meets up & details about the distance and pace of the walk.
+
+The hero image is of a country lane with grass growing in the middle.  There is a secondary navigation at the top of the hero image wiht links to the 3 walking groups
+    Power Walkers
+    Buggy Walkers
+    Family Walkers
+
+The tag line "All walks start at 10AM and take approx 1 hour" is display in zoom format (x1.2 over 3 seconds) to draw attention to this most important information. 
+
+##### About
+There are 3 panels in this section as follows
+
+    About Cormeen Walkers : details of the Walking groups and inpage links to meetup days/times.
+    About Cormeen Sports Complex : details of the meetup location and facilities onsite along with image of the building.
+    Driving Directions : written directions from Moynalty, pointer to eircode finder and a google maps with location pinned.
+
+##### Groups
+There are 4 panels in this section, one for each day that there is a meetup, all are text based with icons identifing the groups.
+
+##### Benefits
+There are 4 panels in this section, 2 are text based and 2 with images meant to backup the text beside them.  
+
+#### Signup/Newsletter Page
+The Newsletter page (file called signup.html) outlines details of the quarterly daytrip and invites the user to submit their name and email address (verified) so that they can be send details of next trip etc in a newsletter.  Once they hit "Send me Newsletter" button, the user will get a confirmation notice advising them to check their inbox for the newsletter and how to unsubscribe from newsletter. The confirmation notice is held on a seperate html page (file named confirm.html) but user is oblivious as same backdrop is used for both signup and confirm pages. 
+
+#### Gallery Page
+The Gallery page reinforces the sense of countryside, farmland & fresh air by displaying images of sights to be seen while on one of these walks. 
+It contains 2 sections of images, 1st are landscape images of countryside and 2nd are images of the walkers.
 
 
-### Times
-- There are 3 groups & 4 meetups per week
+## RESPONSIVE
+This ws is responsive, it maintains its layout when viewed on difference screen widths.  The site elements rearrange themesevles according to the current browser screeen width in order to maintain consistency of design and presentation.  Media queries for graceful degradation are written from screen sizes < 1200px down to <375px.  
 
-- Walkers : Meet twice a week Mon & Fri, 8k circuit
-- Buggys : Meet Wed 10am 5K route
-- Family : Meet Sat 10am 4k route
+I had to add media query for progressive advancement of screen > 1800px.
 
-### Guidelines
-- No dogs
-- High Visibility Jacket
-- Weather appropriate Clothing & footwear
-- map to find us
-Cormeen Sports Complex eircode a82 ft62 is in North County Meath close to the Cavan border, It is equidistant to the towns
-				of Kells, Kingscourt & Bailieborough. It is a rural location with views of windmills on rolling farmland
-				hills, walking routea from here will have you crossing old stone bridges and walking past farmland
-				through the seasons, roads so quite that some have the grassy center!
+SOB amiresponsive
 
 ### Future Implementations
 
@@ -187,16 +220,14 @@ The following features and improvements are for consideration when planning the 
 
 ### Accessibility
 
-Each icon element is given aria-label for accessibility purposes.  
+I have been careful to try to include aria labels whenever necessary.  i picked colors & fonts that had greatest contrast for ease of viewing.  
 
-Aria-label v alt
+##### Aria-label v alt
 
-Unfortunately I was unable to physically test the site with a screen reader. I am undecided which attribute - aria-label or alt -  is most approprate for accessibility. This stems from the fact that devtools inspect element on the browser seems to use the alt value in the 'accessibility' Name property for images I have in the Gallery.  When I had specified an aria-label there was no value in 'accessibility Name' on inspect, on digging I found the DOM Accessibility tab on devtools did contain the aria-label values. However i thought it better in this case to use the alt attrribute due to the fact that accessibility is visible in the top level inspection.
+Unfortunately I was unable to physically test the site with a screen reader. I am undecided which attribute - aria-label or alt -  is most approprate for accessibility. This stems from the fact that devtools inspect element on the browser seems to use the alt value in the 'accessibility' Name property for images I have in the Gallery.  When I had specified an aria-label there was no value in 'accessibility Name' on inspect, on digging I found the DOM Accessibility tab on devtools did contain the aria-label values. However I deemed it better in this case to use the alt attrribute due to the fact that accessibility values are seen in the top level inspection.
 
-Each icon element has a aria-label as the alt attribute did not seem to have any effect on top level inspection.  It is somewhat strange that in some cases the parent element of icons do seem to absorb some information about the icons but there may be something happening here with fontawesome that is over my head.
+Each icon element has a aria-label as the alt attribute did not seem to have any effect on top level inspection.  It is somewhat strange that in some cases the parent element of icons do seem to absorb some information about the icons but there may be something happening here with fontawesome that is over my head (ex the h2 parent of an <i>)
 
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
 
 ## Technologies Used
 
@@ -208,11 +239,8 @@ HTML & CSS.
 
 ### Frameworks, Libraries & Programs Used
 
-Make sure to include things like 
-git, GitHub,
-wireframe handwritten the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Code institute gitpod-full-template which provides extensions and tools for students.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
 
 ## Deployment & Local Development
 
@@ -236,18 +264,14 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
- Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value can be clearly seen on the accessibility tab of devtools but not on the inpect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
+Functionality testing of the 3 pages was undertaken all throughout development and on final draft deployment and all is good.
+
+The website was tested on  3 browsers - Google Chrome, Firefox and Microsoft Edge & there were no issues.
 
 
+#### Aria Labels
+ Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value can be clearly seen on the accessibility tab of devtools but not on the inspect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
 
-SOB bug - family icon does not render
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
-
-background colors
 
 ## Credits
 SOB Irish Heart Foundation
