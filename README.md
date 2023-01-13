@@ -144,8 +144,6 @@ This ws is responsive, it maintains its layout when viewed on difference screen 
 
 I had to add media query for progressive advancement of screen > 1800px.
 
-![Mockup](docs/images/cormeenwalkers.jpg)
-
 ## Features
 
 #### Header :
@@ -224,7 +222,7 @@ I have been careful to try to include aria labels whenever necessary.  i picked 
 
 ##### Aria-label v alt
 
-Unfortunately I was unable to physically test the site with a screen reader. I am undecided which attribute - aria-label or alt -  is most approprate for accessibility. This stems from the fact that devtools inspect element on the browser seems to use the alt value in the 'accessibility' Name property for images I have in the Gallery.  When I had specified an aria-label there was no value in 'accessibility Name' on inspect, on digging I found the DOM Accessibility tab on devtools did contain the aria-label values. However I deemed it better in this case to use the alt attrribute due to the fact that accessibility values are seen in the top level inspection.
+Unfortunately I was unable to physically test the site with a screen reader. I am undecided which attribute - aria-label or alt -  is most approprate for accessibility. This stems from the fact that devtools right click  inspect element on the browser seems to use the alt value in the 'accessibility' Name property for images I have in the Gallery.  When I had specified an aria-label there was no value in 'accessibility Name' on inspect, on digging I found the DOM Accessibility tab on devtools did contain the aria-label values. However I deemed it better in this case to use the alt attrribute due to the fact that accessibility values are seen in the top level inspection.
 
 Each icon element has a aria-label as the alt attribute did not seem to have any effect on top level inspection.  It is somewhat strange that in some cases the parent element of icons do seem to absorb some information about the icons but there may be something happening here with fontawesome that is over my head (ex the h2 parent of an <i>)
 
@@ -248,49 +246,36 @@ Code institute gitpod-full-template which provides extensions and tools for stud
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed to indicate the successful deployment. 
 
-### Local Development
-
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
-#### How to Fork
-
-Place instructions on how to fork your project here.
-
-#### How to Clone
-
-Place instructions on how to clone your project here.
+The live link can be found here https://siobhain.github.io/cormeen-walkers/index.html
 
 ## Testing
 
-Functionality testing of the 3 pages was undertaken all throughout development and on final draft deployment and all is good.
+Functionality testing of the 3 pages was undertaken all throughout development and on final draft deployment, all features outlined above have been tested & are working.  Both page abd inpage links are working.  The Newsletter page was tested with a invalid email address and it is not accepted - the user is advised to include an "@" symbol in the email field.
 
 The website was tested on  3 browsers - Google Chrome, Firefox and Microsoft Edge & there were no issues.
 
-
 #### Aria Labels
- Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value can be clearly seen on the accessibility tab of devtools but not on the inspect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
+ Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value can be clearly seen on the accessibility tab of devtools but not on the (right click) inspect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
 
 
 ## Credits
-SOB Irish Heart Foundation
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
-### Code Used
-
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+- Code institute LMS 
+- CI  Love Running site
+- MDN Web Docs
+- www.w3schools.com
+- Code institute Slack Community
+- Stack OverFlow
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content was written by myslef.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
-  
-###  Acknowledgments
-
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+Images are courtesy of pexels or my own camera.

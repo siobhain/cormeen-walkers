@@ -6,7 +6,7 @@ This website is a landing page for anyone living in the sourrounding area that w
 
   like  when the various walking groups meet Walkers meet, they can view the gallery to see photos of the various groups and they can signup for the quarterly newsletter by providing their first name and a valid email address.
 
-I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.  specifically do not want to include my contact phone number as I am trying to avoid receiving calls.(Add a Blurb about the site here, what does it do, why did you build it?)
+I wrote this website as I was continually contacted for information about the walking groups when and where etc & now I can simply send them a link which should give them most of the information they are looking for.  , specifically do not want to include my contact phone number as I am trying to avoid receiving calls.(Add a Blurb about the site here, what does it do, why did you build it?)
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 

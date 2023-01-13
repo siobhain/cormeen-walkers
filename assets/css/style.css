@@ -2,10 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Nunito&display=swap');
 
-/* * {
-    outline: 1px solid #f00 !important;
-} */
-
 /* Clear box model defaults*/
 
 * {
@@ -31,14 +27,14 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 340%;
     margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 200%;
     font-weight: bold;
     letter-spacing: 4px;
 }
@@ -64,8 +60,8 @@ h1 {
 
 a:hover {
     background-color: rgba(113, 22, 70, 0.7);
-    border: 4px solid #708212ff;
-    /* background-color: rgba(151, 137, 96, 1); */
+    border: 4px solid #202906ff;
+
 }
 
 .active {
@@ -80,36 +76,23 @@ a:hover {
     flex-direction: column;
     font-size: 12px;
     background-color: #94896bff;
-    /* use in case image does not load */
     background: url('../images/grass-middle-road.jpg') no-repeat center center;
     background-size: cover;
     align-items: center;
     height: 50vh;
     position: relative;
-    /* animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forw/ards; */
 }
-
-/* #hero-links ul {
-    display: inline;
-    list-style-type: none;
-    margin-top: 8px;
-} */
 
 #hero-links li {
     display: inline;
-    /* list-style-type: none; */
     margin-top: 8px;
 }
 
 #hero-links a {
-    /* background-color:  rgba(32, 41, 6, 0.8); */
-    /* background-color: rgba(151, 137, 96, 1); */
     background-color: rgba(113, 22, 70, 0.8);
     letter-spacing: 3px;
     color: #fff;
-    font-size: 150%;
+    font-size: 200%;
     font-weight: bold;
     margin: 5px 5px;
 }
@@ -131,12 +114,8 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     letter-spacing: 3px;
-    background-color: rgba(151, 137, 96, 0.9);
-    /* background-color: rgba(113, 22, 70, 0.8); */
-    /* background-color: rgba(151, 137, 96, 1); */
-    /* background-color: rgba(151, 137, 96, 0.8); */
+    background-color: rgba(113, 22, 70, 0.8);
     bottom: 75px;
-    /* align-items: center; */
     position: absolute;
     animation-name: herotext-zoom;
     animation-duration: 3s;
@@ -186,16 +165,11 @@ a:hover {
 }
 
 /* About section */
-/* rgb(139,156,59,1) moss green */
 
 #about-section {
-    /* background-color: #191d0dff; */
-    /* background-color: rgba(32, 41, 6, 0.9); */
     background-color: rgba(113, 22, 70, 0.8);
-    /* background-color: #8b9c3b; */
-    /* background-color: #3e491cff; */
-    border: 4px solid #711646ff;
     display: flex;
+    align-items: center;
     flex-wrap: nowrap;
     width: 100%;
 }
@@ -204,14 +178,8 @@ a:hover {
     margin: 10px;
     letter-spacing: 2px;
     padding: 10px 10px;
-    /* background-color: rgba(113, 22, 70, 0.8); */
-    /* background-color: #711646cc; */
-    /* background-color: #711646ff; */
     text-align: left;
-    /* background-color: rgba(32, 41, 6, 0.9); */
-    /* border: 10px solid #fff; */
     border: 2px solid white;
-    /* width: 50%; */
 }
 
 .about-box ul {
@@ -228,7 +196,6 @@ a:hover {
 figure img {
     width: 100%;
     background-color: #94896bff;
-    /* border: 3px solid rgba(113, 22, 70, 0.8); */
     border: 3px solid #202906ff;
 }
 
@@ -238,12 +205,11 @@ figcaption {
     text-transform: uppercase;
 }
 
-/* .about-box img, */
 
 .about-box iframe {
     background-color: #94896bff;
     border: 3px solid #202906ff;
-    width: 90%;
+    width: 100%;
 }
 
 /* Group Section */
@@ -258,14 +224,11 @@ figcaption {
     text-align: center;
     width: 100%;
     background-color: #3e491cff;
-    /* background-color: rgba(151, 137, 96, 1); */
     letter-spacing: 2px;
-    border: 3px double #fff;
 }
 
 .groups-box {
     background-color: #3e491cff;
-    /* background-color: rgba(151, 137, 96, 1); */
     letter-spacing: 2px;
     width: 25%;
     height: 300px;
@@ -279,7 +242,6 @@ figcaption {
     font-size: 200%;
     padding: 2px 0;
     color: #fff;
-    border: 3px solid #fff;
 }
 
 /* Benefit Section */
@@ -288,9 +250,6 @@ figcaption {
     clear: both;
     display: flex;
     background-color: rgba(32, 41, 6, 1);
-    border: 4px solid #711646ff;
-    /* background: url(../images/evening-fields.jpg) no-repeat center center; */
-    /* background-color: #948966; */
     justify-content: space-around;
     text-align: center;
 }
@@ -313,7 +272,6 @@ figcaption {
 }
 
 .benefit-text ul {
-    /* background-color: rgba(32, 41, 6, 1); */
     background-color: rgba(32, 41, 6, 0.7);
     margin: 10px;
     border: 2px solid #fff;
@@ -402,7 +360,7 @@ footer {
     background-color: rgba(113, 22, 70, 0.5);
 }
 
-/* form confirmation */
+/* Form Confirmation */
 
 #confirm {
     background-color: #94896bff;
@@ -424,10 +382,9 @@ footer {
     border: 4px solid #202906ff;
     background-color: rgba(151, 137, 96, 0.8);
     text-align: center;
-}colour
+}
 
-
-#thanks a {
+colour #thanks a {
     text-decoration: none;
 }
 
@@ -443,7 +400,6 @@ footer {
 
 .gallery-box {
     background-color: #94896bff;
-    /* background-color: #978960ff; */
     color: rgba(32, 41, 6, 0.9);
     padding: 5px 5px;
     width: 100%;
@@ -459,11 +415,10 @@ footer {
 .photos {
     clear: both;
     color: rgba(32, 41, 6, 0.9);
-    background-color: #978960ff;
+    background-color: #94896bff;
     padding: 5px;
     text-align: center;
     column-count: 3;
-    /* margin: 0px; */
 }
 
 .photos img {
@@ -471,6 +426,7 @@ footer {
     border: 2px solid #202906ff;
     margin: 3px;
 }
+
 
 /* Media queries via graceful degradation */
 
@@ -483,7 +439,44 @@ footer {
     }
 }
 
-/* For larger to medium screens size like tablet < 1040px */
+
+@media screen and (max-width: 1200px) {
+
+
+    #logo {
+        font-size: 280%;
+    }
+
+    #menu {
+        font-size: 150%;
+    }
+
+    #hero-links {
+        font-size: 120%;
+    }
+
+    #hero-text p {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+
+    #logo {
+        font-size: 220%;
+    }
+
+    #hero-links {
+        font-size: 120%;
+    }
+
+    #hero-text p {
+        font-size: 100%;
+    }
+
+
+}
 
 @media screen and (max-width: 1040px) {
 
@@ -501,10 +494,6 @@ footer {
         align-self: center;
     }
 
-    /* 
-    footer {
-        padding: 0 20px;
-    } */
 }
 
 /* screens < 930px*/
@@ -513,6 +502,16 @@ footer {
 
     #logo {
         font-size: 200%;
+    }
+
+
+    #menu {
+        font-size: 100%;
+    }
+
+
+    #hero-links {
+        font-size: 100%;
     }
 }
 
@@ -544,7 +543,6 @@ footer {
 
     #hero-links {
         font-size: 90%;
-        letter-spacing: 0;
         margin: 0 8px;
         font-weight: bold;
     }
@@ -594,7 +592,7 @@ footer {
     }
 
     #hero-links {
-        font-size: 80%;
+        font-size: 50%;
         letter-spacing: 0;
         margin: 0 8px;
         font-weight: bold;
@@ -604,8 +602,8 @@ footer {
 }
 
 
-/* For smaller mobile < 520px */
-@media screen and (max-width: 520px) {
+/* For smaller mobile < 560px */
+@media screen and (max-width: 560px) {
 
     #logo {
         font-size: 80%;
@@ -629,25 +627,22 @@ footer {
         padding: 1px;
     }
 
-    #hero-links {
-        font-size: 70%;
+    #hero-links #hero-text {
+        font-size: 40%;
     }
 
 }
 
 /* smaller mobiles */
 
-@media screen and (max-width: 400px) {
-
+@media screen and (max-width: 480px) {
 
     #logo,
     #menu {
         display: block;
-        /* text-align: center; */
         width: 100%;
         margin: 0 auto;
     }
-
 
     #hero-section {
         height: 30vh;
@@ -655,7 +650,7 @@ footer {
 
     #hero-links,
     #hero-text {
-        font-size: 50%;
+        font-size: 25%;
     }
 
     #hero-text {
@@ -694,5 +689,13 @@ footer {
     /* form */
     .signup-form {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    #hero-links,
+    #hero-text {
+        visibility: hidden;
     }
 }
