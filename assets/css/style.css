@@ -622,7 +622,7 @@ colour #thanks a {
 
     #menu a {
         font-size: 80%;
-        letter-spacing: 1;
+        letter-spacing: 1px;
         margin: 0 8px;
         padding: 1px;
     }
