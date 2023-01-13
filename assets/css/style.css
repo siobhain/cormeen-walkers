@@ -79,6 +79,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     font-size: 12px;
+    background-color: #94896bff;
+    /* use in case image does not load */
     background: url('../images/grass-middle-road.jpg') no-repeat center center;
     background-size: cover;
     align-items: center;
@@ -325,12 +327,14 @@ figcaption {
 
 #leaves-bg {
     background: url('../images/legs-in-leaves.jpg') no-repeat center center;
+    background-color: #94896bff;
     height: 100%;
 }
 
 
 #carpark-bg {
     background: url('../images/cormeen-sports-complex-walk.jpg') no-repeat center center;
+    background-color: #94896bff;
     height: 100%;
 }
 
@@ -364,6 +368,7 @@ footer {
     clear: both;
     height: 82vh;
     width: 100%;
+    background-color: #94896bff;
     background: url(../images/windmills-from-lough-an-lea.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -400,6 +405,7 @@ footer {
 /* form confirmation */
 
 #confirm {
+    background-color: #94896bff;
     background: url('../images/windmills-from-lough-an-lea.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
@@ -426,40 +432,43 @@ footer {
 
 /* Gallery Section */
 
-#gallery {
+.gallery {
     clear: both;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    padding: 5px 5px;
+    margin: 10px 10px;
 }
 
-#gallery-box {
-    border: 2px solid #191d0dff;
+.gallery-box {
     background-color: #978960ff;
+    color: rgba(32, 41, 6, 0.9);
+    padding: 5px 5px;
+    width 100%;
 }
 
-#gallery-box h2,
-#gallery-box p {
+.gallery-box h2,
+.gallery-box p {
     text-align: center;
+    font-size: 120%;
 }
 
 
-#photos {
+.photos {
     clear: both;
-    color: #191d0dff;
+    color: rgba(32, 41, 6, 0.9);
     background-color: #978960ff;
     padding: 5px;
     text-align: center;
     column-count: 3;
-    margin: 0px;
+    /* margin: 0px; */
 }
 
-#photos img {
+.photos img {
     width: 90%;
-    border: 3px solid #191d0dff;
+    border: 2px solid #202906ff;
     margin: 3px;
 }
-
 
 /* Media queries via graceful degradation */
 
@@ -518,7 +527,7 @@ footer {
         font-size: 100%;
     }
 
-    #photos {
+    .photos {
         column-count: 2;
     }
 }
@@ -578,7 +587,7 @@ footer {
         font-size: 80%;
     }
 
-    #gallery {
+    .gallery {
         font-size: 100%;
     }
 
@@ -617,7 +626,7 @@ footer {
         margin: 0 8px;
         padding: 1px;
     }
-    
+
     #hero-links {
         font-size: 70%;
     }
@@ -647,7 +656,7 @@ footer {
         font-size: 50%;
     }
 
-    #hero-text{
+    #hero-text {
         bottom: 25px;
     }
 
@@ -672,11 +681,11 @@ footer {
 
     /* Gallery */
 
-    #gallery {
+    .gallery {
         font-size: 50%;
     }
 
-    #photos {
+    .photos {
         column-count: 1;
     }
 

@@ -112,16 +112,16 @@ With these font choices I have made the conscious decision to mix a serif with a
 
 ### Imagery
 
-I have chosen a picture of a country lane typical of the locality in which the walks take place as the hero image.
-I have included a picture of Cormeen Sports Complex to job memory of the user as to where the meetup place is.
-There are 2 further photos in the home page in whats called the 'benefits' section but what i should rename as the 'information' section.  The 1st is taken in Jan 2022 outside CSC before the Family Walkers start.  The 2nd is a close up of walking in leaves to encourage the user to come out walking, It is beside the 'Benefits to Walkers' text so meant as a motivitational picture.
+#### Photos
 
-The Signup page (Newsletter in navigation menu) has a background image from Lough an Lae our local mountain. This is a treaser for users as the signup panel covers most of this picture and if they signup they panel goes away and they get to see the beautiful   singing up for the newsletter as this
+1. The hero image is a country lane typical of the locality in which the walks take place, it is used to attract users that are interested in walking in quiet rural country lanes.
+2. The reason for the building image shown in "About Cormeen Sports Complex" is two fold, 1st for people who are familiar with the building it is used to jog their memory as to where the meetup place is & 2nd for new walkers and/or new people to the area it is to help them realise that they have arrived at the location & not drive past it.
+3. There are 2 further images at the end of home page in whats referred to as the 'benefits-section' in html. The 1st image is taken in Jan 2022 outside Cormeen Sports Complex before the Family Walkers start, it is used to show users a typical walking groups from Cormeen.  The 2nd, a close up of walking in leaves, is used to encourage the user to come out walking, It is beside the 'Benefits to Walkers' text so meant as a motivitational picture for the user.
+4. The Signup page (Newsletter in navigation menu) has a background image from Loughan Lae our local mountain. This is a teaser for users as the signup panel covers most of this picture, they are prompted to signup so that the panel goes away and they get to see the beautiful Loughan Lae.
+5. In the gallery page there are 12 photos taken by Cormeen Walkers, at time of writing some of these images are repeated on this page & i will endeavor to have 12 unique images by submission time but please forgive if this does not occur.
 
-- Icons 
-
-- The are 9 icons used in this website and they are are freely availabel from [Font Awesome](https://fontawesome.com/), The 9 icons are outlined [here](docs/fa-icon.PNG)
-Use this section to explain what sort of imagery you plan to use through your site.
+#### Icons 
+- The are 9 icons used in this website and they are are freely available from [Font Awesome](https://fontawesome.com/), The 9 icons are outlined [here](docs/fa-icon.PNG). Each icon element is given aria-label for accessibility purposes.
 
 ### Wireframes
 
@@ -181,20 +181,29 @@ Cormeen Sports Complex eircode a82 ft62 is in North County Meath close to the Ca
 				of Kells, Kingscourt & Bailieborough. It is a rural location with views of windmills on rolling farmland
 				hills, walking routea from here will have you crossing old stone bridges and walking past farmland
 				through the seasons, roads so quite that some have the grassy center!
+
 ### Future Implementations
 
-The following features and improvements are up for consideration for the next version fo the website :
+The following features and improvements are for consideration when planning the next version of the website :
 
 - The current newsletter and archives of past newsletter be available for viewing.
 - A "Route" section with drawing on google map screenchots of the various road routes used  by the walking groups.  There are 8 different looped routes that can be taken form this crossroads location and each has its own uniqueness.  
 - There are 4 offroad crosscountry routes to local townlands/villages which were used by our ancestors in days gone by & the right of way is still upheld, These crosscountry routes be outlined and documented on the website, they are called Mass Paths.
 - Links on the web site to join the various Whatsapp groups maintained by Walking Group Leaders.
-- Consideration should be given if a contact phone number is required, this will largely be determined by feedback form current users.
+- Consideration should be given if a contact phone number is required, this can largely be determined by feedback from current users.
 - Add any new walking groups that have started up since.
+- In index.html, consider rename the final section (benefits-section) to a more suitable name like information-section & add more valuable content.
 
 
 
 ### Accessibility
+
+Each icon element is given aria-label for accessibility purposes.  
+
+Aria-label v alt
+
+Unfortunately I was unable to physically test the site with a screen reader so I am undecided which attribute - aria-label or alt -  is approprite for accessibility. This stems from the fact that devtools inspect element on browser dropdown seems to use the alt value in the 'accessibility' Name property (ex Gallery photos ) did note that the value on my alt attribute for mages was visible on the dropdown inspect visual in devtools  it depends alos on the 
+
 
 Be an amazing developer and get used to thinking about accessibility in all of your projects!
 
@@ -243,6 +252,11 @@ Place instructions on how to fork your project here.
 Place instructions on how to clone your project here.
 
 ## Testing
+
+ Each icon element is given aria-label for accessibility purposes. In devtools I was unable to see the aria-label value on inpection of the icon element via dropdown visual on the browser, however I did note that in some cases the parent element (such as a h2 or h3) acquires the aria-label value for the icon but not in all cases & unfortunatley time did not allow me to investigate further. The aria-label value cab be clearly seen on the accessibility tab of devtools but not on the inpect dropdown, Without time to investigate further I assume this is a limitation on devtools and that had I been actually able to test these aria-labels with a screen reader it would work as intended.
+
+
+
 SOB bug - family icon does not render
 Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
 
